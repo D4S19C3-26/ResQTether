@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="collapsed_structure">
+    <!-- Required plugins for modern Gazebo -->
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"></plugin>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"></plugin>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"></plugin>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+    
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Outer Walls (10x10 area roughly) -->
+    <model name="wall_outer_n">
+      <static>true</static><pose>0 5 1 0 0 0</pose>
+      <link name="link"><collision name="c"><geometry><box><size>10 0.2 2</size></box></geometry></collision><visual name="v"><geometry><box><size>10 0.2 2</size></box></geometry></visual></link>
+    </model>
+    <model name="wall_outer_s">
+      <static>true</static><pose>0 -5 1 0 0 0</pose>
+      <link name="link"><collision name="c"><geometry><box><size>10 0.2 2</size></box></geometry></collision><visual name="v"><geometry><box><size>10 0.2 2</size></box></geometry></visual></link>
+    </model>
+    <model name="wall_outer_e">
+      <static>true</static><pose>5 0 1 0 0 1.5708</pose>
+      <link name="link"><collision name="c"><geometry><box><size>10 0.2 2</size></box></geometry></collision><visual name="v"><geometry><box><size>10 0.2 2</size></box></geometry></visual></link>
+    </model>
+    <model name="wall_outer_w">
+      <static>true</static><pose>-5 0 1 0 0 1.5708</pose>
+      <link name="link"><collision name="c"><geometry><box><size>10 0.2 2</size></box></geometry></collision><visual name="v"><geometry><box><size>10 0.2 2</size></box></geometry></visual></link>
+    </model>
+
+    <!-- Internal walls -->
+    <!--
+      Layout (top-down view, 10x10, arena from -5 to +5):
+        wall_int_1: horizontal at y=+1.5, spans from x=-5 to x=+1 (leaving 2m gap on right: x=1 to x=5)
+        wall_int_2: horizontal at y=-1.5, spans from x=-1 to x=+5 (leaving 2m gap on left: x=-5 to x=-1)
+        wall_int_3: vertical at x=-2, spans from y=+1.5 to y=+5 (splits upper-left corridor)
+        wall_int_4: vertical at x=+2, spans from y=-5 to y=-1.5 (splits lower-right corridor)
+    -->
+
+    <!-- Top horizontal divider: 6m long, flush with west wall, leaves 2m gap on east -->
+    <model name="wall_int_1">
+      <static>true</static><pose>-2 1.5 1 0 0 0</pose>
+      <link name="link"><collision name="c"><geometry><box><size>6 0.2 2</size></box></geometry></collision><visual name="v"><geometry><box><size>6 0.2 2</size></box></geometry></visual></link>
+    </model>
+
+    <!-- Bottom horizontal divider: 6m long, flush with east wall, leaves 2m gap on west -->
+    <model name="wall_int_2">
+      <static>true</static><pose>2 -1.5 1 0 0 0</pose>
+      <link name="link"><collision name="c"><geometry><box><size>6 0.2 2</size></box></geometry></collision><visual name="v"><geometry><box><size>6 0.2 2</size></box></geometry></visual></link>
+    </model>
+
+    <!-- Upper-left vertical divider: 3m tall (y from 1.5 to 4.5), leaves 0.5m gap at top for SLAM interest -->
+    <model name="wall_int_3">
+      <static>true</static><pose>-2 3 1 0 0 1.5708</pose>
+      <link name="link"><collision name="c"><geometry><box><size>3 0.2 2</size></box></geometry></collision><visual name="v"><geometry><box><size>3 0.2 2</size></box></geometry></visual></link>
+    </model>
+
+    <!-- Lower-right vertical divider: 3m tall (y from -4.5 to -1.5) -->
+    <model name="wall_int_4">
+      <static>true</static><pose>2 -3 1 0 0 1.5708</pose>
+      <link name="link"><collision name="c"><geometry><box><size>3 0.2 2</size></box></geometry></collision><visual name="v"><geometry><box><size>3 0.2 2</size></box></geometry></visual></link>
+    </model>
+
+  </world>
+</sdf>
