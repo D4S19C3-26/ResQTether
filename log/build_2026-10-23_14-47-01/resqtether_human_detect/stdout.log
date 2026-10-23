@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/PKG-INFO
+writing dependency_links to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/dependency_links.txt
+writing entry points to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/entry_points.txt
+writing requirements to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/requires.txt
+writing top-level names to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/top_level.txt
+reading manifest file '../../build/resqtether_human_detect/resqtether_human_detect.egg-info/SOURCES.txt'
+writing manifest file '../../build/resqtether_human_detect/resqtether_human_detect.egg-info/SOURCES.txt'
+running build
+running build_py
+copying resqtether_human_detect/victim_locator_node.py -> /home/dsc/resqtether_ws/build/resqtether_human_detect/build/lib/resqtether_human_detect
+running install
+running install_lib
+copying /home/dsc/resqtether_ws/build/resqtether_human_detect/build/lib/resqtether_human_detect/victim_locator_node.py -> /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect
+byte-compiling /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect/victim_locator_node.py to victim_locator_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/resqtether_human_detect/resqtether_human_detect.egg-info to /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect-0.0.0-py3.12.egg-info
+running install_scripts
+Installing human_detect_node script to /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/resqtether_human_detect
+Installing victim_locator_node script to /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/resqtether_human_detect
+writing list of installed files to '/home/dsc/resqtether_ws/build/resqtether_human_detect/install.log'

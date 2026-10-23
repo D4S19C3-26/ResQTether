@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from resqtether_interfaces/msg/VictimAlert.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module resqtether_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "VictimAlert.msg" "\n"
+      "Payload published when a human/victim is identified by the rover.")
+    struct VictimAlert {
+      builtin_interfaces::msg::Time stamp;
+
+      double victim_x;
+
+      double victim_y;
+
+      float rssi_at_detection;
+
+      float rssi_at_transmission;
+
+      boolean deferred_relay;
+
+      float delay_seconds;
+
+      string notes;
+    };
+  };
+};

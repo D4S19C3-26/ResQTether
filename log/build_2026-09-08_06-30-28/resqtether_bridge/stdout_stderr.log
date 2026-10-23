@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/resqtether_bridge/resqtether_bridge.egg-info
+writing ../../build/resqtether_bridge/resqtether_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../build/resqtether_bridge/resqtether_bridge.egg-info/dependency_links.txt
+writing requirements to ../../build/resqtether_bridge/resqtether_bridge.egg-info/requires.txt
+writing top-level names to ../../build/resqtether_bridge/resqtether_bridge.egg-info/top_level.txt
+writing manifest file '../../build/resqtether_bridge/resqtether_bridge.egg-info/SOURCES.txt'
+reading manifest file '../../build/resqtether_bridge/resqtether_bridge.egg-info/SOURCES.txt'
+writing manifest file '../../build/resqtether_bridge/resqtether_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/build/lib/resqtether_bridge
+copying resqtether_bridge/__init__.py -> /home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/build/lib/resqtether_bridge
+copying resqtether_bridge/bridge_node.py -> /home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/build/lib/resqtether_bridge
+running install
+running install_lib
+creating /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages/resqtether_bridge
+copying /home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/build/lib/resqtether_bridge/__init__.py -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages/resqtether_bridge
+copying /home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/build/lib/resqtether_bridge/bridge_node.py -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages/resqtether_bridge
+byte-compiling /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages/resqtether_bridge/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages/resqtether_bridge/bridge_node.py to bridge_node.cpython-312.pyc
+running install_data
+creating /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/share/ament_index/resource_index/packages
+copying resource/resqtether_bridge -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/share/resqtether_bridge
+running install_egg_info
+Copying ../../build/resqtether_bridge/resqtether_bridge.egg-info to /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages/resqtether_bridge-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/install.log'

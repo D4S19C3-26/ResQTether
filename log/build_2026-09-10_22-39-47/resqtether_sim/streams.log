@@ -1,0 +1,33 @@
+[0.017s] Invoking command in '/home/dsc/resqtether_ws/build/resqtether_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dsc/resqtether_ws/src/resqtether_sim -DCMAKE_INSTALL_PREFIX=/home/dsc/resqtether_ws/install/resqtether_sim
+[0.046s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.216s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.474s] -- Configuring done (0.4s)
+[0.477s] -- Generating done (0.0s)
+[0.480s] -- Build files have been written to: /home/dsc/resqtether_ws/build/resqtether_sim
+[0.483s] Invoked command in '/home/dsc/resqtether_ws/build/resqtether_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dsc/resqtether_ws/src/resqtether_sim -DCMAKE_INSTALL_PREFIX=/home/dsc/resqtether_ws/install/resqtether_sim
+[0.485s] Invoking command in '/home/dsc/resqtether_ws/build/resqtether_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dsc/resqtether_ws/build/resqtether_sim -- -j12 -l12
+[0.539s] Invoked command in '/home/dsc/resqtether_ws/build/resqtether_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dsc/resqtether_ws/build/resqtether_sim -- -j12 -l12
+[0.552s] Invoking command in '/home/dsc/resqtether_ws/build/resqtether_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dsc/resqtether_ws/build/resqtether_sim
+[0.563s] -- Install configuration: ""
+[0.564s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/urdf
+[0.564s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/urdf/resqtether.urdf.xacro
+[0.564s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/worlds
+[0.565s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/worlds/collapsed_structure.world
+[0.565s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/launch
+[0.565s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/launch/sim.launch.py
+[0.565s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/ament_index/resource_index/package_run_dependencies/resqtether_sim
+[0.565s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/ament_index/resource_index/parent_prefix_path/resqtether_sim
+[0.565s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/ament_prefix_path.sh
+[0.566s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/ament_prefix_path.dsv
+[0.566s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/path.sh
+[0.566s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/path.dsv
+[0.566s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/local_setup.bash
+[0.566s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/local_setup.sh
+[0.566s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/local_setup.zsh
+[0.566s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/local_setup.dsv
+[0.566s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/package.dsv
+[0.566s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/ament_index/resource_index/packages/resqtether_sim
+[0.567s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/cmake/resqtether_simConfig.cmake
+[0.567s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/cmake/resqtether_simConfig-version.cmake
+[0.567s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/package.xml
+[0.570s] Invoked command in '/home/dsc/resqtether_ws/build/resqtether_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dsc/resqtether_ws/build/resqtether_sim

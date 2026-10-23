@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/lora_bringup/lora_bringup.egg-info
+writing ../../build/lora_bringup/lora_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/lora_bringup/lora_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/lora_bringup/lora_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/lora_bringup/lora_bringup.egg-info/requires.txt
+writing top-level names to ../../build/lora_bringup/lora_bringup.egg-info/top_level.txt
+writing manifest file '../../build/lora_bringup/lora_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/lora_bringup/lora_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/lora_bringup/lora_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dsc/resqtether_ws/build/lora_bringup/build/lib/lora_bringup
+copying lora_bringup/__init__.py -> /home/dsc/resqtether_ws/build/lora_bringup/build/lib/lora_bringup
+copying lora_bringup/lora_serial_node.py -> /home/dsc/resqtether_ws/build/lora_bringup/build/lib/lora_bringup
+copying lora_bringup/lora_sim_node.py -> /home/dsc/resqtether_ws/build/lora_bringup/build/lib/lora_bringup
+running install
+running install_lib
+creating /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup
+copying /home/dsc/resqtether_ws/build/lora_bringup/build/lib/lora_bringup/__init__.py -> /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup
+copying /home/dsc/resqtether_ws/build/lora_bringup/build/lib/lora_bringup/lora_serial_node.py -> /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup
+copying /home/dsc/resqtether_ws/build/lora_bringup/build/lib/lora_bringup/lora_sim_node.py -> /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup
+byte-compiling /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup/lora_serial_node.py to lora_serial_node.cpython-312.pyc
+byte-compiling /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup/lora_sim_node.py to lora_sim_node.cpython-312.pyc
+running install_data
+creating /home/dsc/resqtether_ws/install/lora_bringup/share/ament_index/resource_index/packages
+copying resource/lora_bringup -> /home/dsc/resqtether_ws/install/lora_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/dsc/resqtether_ws/install/lora_bringup/share/lora_bringup
+creating /home/dsc/resqtether_ws/install/lora_bringup/share/lora_bringup/launch
+copying launch/lora.launch.py -> /home/dsc/resqtether_ws/install/lora_bringup/share/lora_bringup/launch
+copying launch/lora_sim.launch.py -> /home/dsc/resqtether_ws/install/lora_bringup/share/lora_bringup/launch
+running install_egg_info
+Copying ../../build/lora_bringup/lora_bringup.egg-info to /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup-0.0.0-py3.12.egg-info
+running install_scripts
+Installing lora_serial_node script to /home/dsc/resqtether_ws/install/lora_bringup/lib/lora_bringup
+Installing lora_sim_node script to /home/dsc/resqtether_ws/install/lora_bringup/lib/lora_bringup
+writing list of installed files to '/home/dsc/resqtether_ws/build/lora_bringup/install.log'

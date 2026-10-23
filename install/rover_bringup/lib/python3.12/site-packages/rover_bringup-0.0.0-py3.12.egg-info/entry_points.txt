@@ -1,0 +1,3 @@
+[console_scripts]
+keyboard_teleop = rover_bringup.keyboard_teleop:main
+motor_driver_node = rover_bringup.motor_driver_node:main

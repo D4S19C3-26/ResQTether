@@ -1,0 +1,22 @@
+[3.467s] Invoking command in '/home/dsc/resqtether_ws/src/lidar_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/lidar_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/lidar_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_bringup build --build-base /home/dsc/resqtether_ws/build/lidar_bringup/build install --record /home/dsc/resqtether_ws/build/lidar_bringup/install.log --install-scripts $base/lib/lidar_bringup --single-version-externally-managed install_data
+[4.118s] running egg_info
+[4.168s] writing ../../build/lidar_bringup/lidar_bringup.egg-info/PKG-INFO
+[4.169s] writing dependency_links to ../../build/lidar_bringup/lidar_bringup.egg-info/dependency_links.txt
+[4.171s] writing entry points to ../../build/lidar_bringup/lidar_bringup.egg-info/entry_points.txt
+[4.171s] writing requirements to ../../build/lidar_bringup/lidar_bringup.egg-info/requires.txt
+[4.172s] writing top-level names to ../../build/lidar_bringup/lidar_bringup.egg-info/top_level.txt
+[4.269s] reading manifest file '../../build/lidar_bringup/lidar_bringup.egg-info/SOURCES.txt'
+[4.272s] writing manifest file '../../build/lidar_bringup/lidar_bringup.egg-info/SOURCES.txt'
+[4.273s] running build
+[4.274s] running build_py
+[4.274s] running install
+[4.285s] running install_lib
+[4.333s] running install_data
+[4.334s] running install_egg_info
+[4.380s] removing '/home/dsc/resqtether_ws/install/lidar_bringup/lib/python3.12/site-packages/lidar_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[4.381s] Copying ../../build/lidar_bringup/lidar_bringup.egg-info to /home/dsc/resqtether_ws/install/lidar_bringup/lib/python3.12/site-packages/lidar_bringup-0.0.0-py3.12.egg-info
+[4.383s] running install_scripts
+[4.454s] Installing fake_lidar_node script to /home/dsc/resqtether_ws/install/lidar_bringup/lib/lidar_bringup
+[4.454s] Installing lidar_health_check script to /home/dsc/resqtether_ws/install/lidar_bringup/lib/lidar_bringup
+[4.455s] writing list of installed files to '/home/dsc/resqtether_ws/build/lidar_bringup/install.log'
+[4.525s] Invoked command in '/home/dsc/resqtether_ws/src/lidar_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/lidar_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/lidar_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_bringup build --build-base /home/dsc/resqtether_ws/build/lidar_bringup/build install --record /home/dsc/resqtether_ws/build/lidar_bringup/install.log --install-scripts $base/lib/lidar_bringup --single-version-externally-managed install_data

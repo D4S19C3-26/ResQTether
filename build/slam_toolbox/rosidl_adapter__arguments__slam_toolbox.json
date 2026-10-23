@@ -1,0 +1,15 @@
+{
+  "package_name": "slam_toolbox",
+  "non_idl_tuples": [
+    "/home/dsc/resqtether_ws/src/slam_toolbox:srvs/Pause.srv",
+    "/home/dsc/resqtether_ws/src/slam_toolbox:srvs/ClearQueue.srv",
+    "/home/dsc/resqtether_ws/src/slam_toolbox:srvs/ToggleInteractive.srv",
+    "/home/dsc/resqtether_ws/src/slam_toolbox:srvs/Clear.srv",
+    "/home/dsc/resqtether_ws/src/slam_toolbox:srvs/SaveMap.srv",
+    "/home/dsc/resqtether_ws/src/slam_toolbox:srvs/LoopClosure.srv",
+    "/home/dsc/resqtether_ws/src/slam_toolbox:srvs/MergeMaps.srv",
+    "/home/dsc/resqtether_ws/src/slam_toolbox:srvs/AddSubmap.srv",
+    "/home/dsc/resqtether_ws/src/slam_toolbox:srvs/DeserializePoseGraph.srv",
+    "/home/dsc/resqtether_ws/src/slam_toolbox:srvs/SerializePoseGraph.srv"
+  ]
+}

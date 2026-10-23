@@ -1,0 +1,50 @@
+[2.222s] Invoking command in '/home/dsc/resqtether_ws/build/resqtether_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dsc/resqtether_ws/build/resqtether_sim -- -j12 -l12
+[2.335s] Built target ament_cmake_python_copy_resqtether_sim
+[2.874s] running egg_info
+[2.926s] writing resqtether_sim.egg-info/PKG-INFO
+[2.927s] writing dependency_links to resqtether_sim.egg-info/dependency_links.txt
+[2.927s] writing top-level names to resqtether_sim.egg-info/top_level.txt
+[3.040s] reading manifest file 'resqtether_sim.egg-info/SOURCES.txt'
+[3.042s] writing manifest file 'resqtether_sim.egg-info/SOURCES.txt'
+[3.119s] Built target ament_cmake_python_build_resqtether_sim_egg
+[3.411s] Invoked command in '/home/dsc/resqtether_ws/build/resqtether_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dsc/resqtether_ws/build/resqtether_sim -- -j12 -l12
+[3.413s] Invoking command in '/home/dsc/resqtether_ws/build/resqtether_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dsc/resqtether_ws/build/resqtether_sim
+[3.428s] -- Install configuration: ""
+[3.429s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/urdf
+[3.429s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/urdf/resqtether.urdf.xacro
+[3.429s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/worlds
+[3.430s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/worlds/collapsed_structure.world
+[3.430s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/launch
+[3.430s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/launch/sim_slam.launch.py
+[3.430s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/launch/sim.launch.py
+[3.430s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/rviz
+[3.431s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/rviz/slam.rviz
+[3.431s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/pythonpath.sh
+[3.431s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/pythonpath.dsv
+[3.431s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim-0.0.0-py3.12.egg-info
+[3.431s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim-0.0.0-py3.12.egg-info/top_level.txt
+[3.432s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.432s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.432s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim-0.0.0-py3.12.egg-info/PKG-INFO
+[3.433s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim
+[3.433s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim/__init__.py
+[3.433s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim/rssi_model.py
+[3.433s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim/signal_map_node.py
+[3.510s] Listing '/home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim'...
+[3.526s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/lib/resqtether_sim/signal_map_node.py
+[3.527s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/ament_index/resource_index/package_run_dependencies/resqtether_sim
+[3.528s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/ament_index/resource_index/parent_prefix_path/resqtether_sim
+[3.529s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/ament_prefix_path.sh
+[3.529s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/ament_prefix_path.dsv
+[3.530s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/path.sh
+[3.530s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/path.dsv
+[3.531s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/local_setup.bash
+[3.531s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/local_setup.sh
+[3.532s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/local_setup.zsh
+[3.532s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/local_setup.dsv
+[3.532s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/package.dsv
+[3.537s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/ament_index/resource_index/packages/resqtether_sim
+[3.538s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/cmake/resqtether_simConfig.cmake
+[3.538s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/cmake/resqtether_simConfig-version.cmake
+[3.538s] -- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/package.xml
+[3.540s] Invoked command in '/home/dsc/resqtether_ws/build/resqtether_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dsc/resqtether_ws/build/resqtether_sim

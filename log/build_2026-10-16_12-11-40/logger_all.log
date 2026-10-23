@@ -1,0 +1,471 @@
+[0.112s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'resqtether_interfaces', 'resqtether_sim', 'resqtether_decision', 'resqtether_signal_map', 'signal_mapper', 'rover_bringup']
+[0.112s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['resqtether_interfaces', 'resqtether_sim', 'resqtether_decision', 'resqtether_signal_map', 'signal_mapper', 'rover_bringup'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a4cc5df4800>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a4cc5df46b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a4cc5df46b0>>)
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.154s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dsc/resqtether_ws'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_bringup) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_bringup' with type 'ros.ament_python' and name 'lidar_bringup'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_bringup) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_bringup) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_bringup) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_bringup) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_bringup) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_bringup) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_bringup) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/lora_bringup) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lora_bringup' with type 'ros.ament_python' and name 'lora_bringup'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bridge) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bridge) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bridge) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bridge) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bridge) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bridge) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bridge) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bridge) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/resqtether_bridge' with type 'ros.ament_python' and name 'resqtether_bridge'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bringup) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bringup) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bringup) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bringup) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bringup) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bringup) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bringup) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_bringup) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/resqtether_bringup' with type 'ros.ament_python' and name 'resqtether_bringup'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_decision) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_decision) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_decision) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_decision) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_decision) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_decision) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_decision) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_decision) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_decision) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/resqtether_decision' with type 'ros.ament_python' and name 'resqtether_decision'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_human_detect) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_human_detect) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_human_detect) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_human_detect) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_human_detect) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_human_detect) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_human_detect) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_human_detect) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_human_detect) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/resqtether_human_detect' with type 'ros.ament_python' and name 'resqtether_human_detect'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_interfaces) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_interfaces) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_interfaces) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_interfaces) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_interfaces) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_interfaces) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_interfaces) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_interfaces) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/resqtether_interfaces' with type 'ros.ament_cmake' and name 'resqtether_interfaces'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_signal_map) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_signal_map) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_signal_map) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_signal_map) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_signal_map) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_signal_map) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_signal_map) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_signal_map) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_signal_map) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/resqtether_signal_map' with type 'ros.ament_python' and name 'resqtether_signal_map'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_sim) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_sim) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_sim) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_sim) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_sim) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_sim) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_sim) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/resqtether_sim) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/resqtether_sim' with type 'ros.ament_cmake' and name 'resqtether_sim'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rover_bringup' with type 'ros.ament_python' and name 'rover_bringup'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_mapper) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_mapper) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_mapper) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_mapper) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_mapper) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_mapper) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_mapper) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_mapper) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_mapper) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/signal_mapper' with type 'ros.ament_python' and name 'signal_mapper'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_bringup) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_bringup' with type 'ros.ament_python' and name 'slam_bringup'
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.214s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lidar_bringup' in 'src/lidar_bringup'
+[0.214s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'resqtether_bridge' in 'src/resqtether_bridge'
+[0.214s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'resqtether_bringup' in 'src/resqtether_bringup'
+[0.214s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'resqtether_human_detect' in 'src/resqtether_human_detect'
+[0.214s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'slam_bringup' in 'src/slam_bringup'
+[0.214s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lora_bringup' in 'src/lora_bringup'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'resqtether_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'resqtether_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'resqtether_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'resqtether_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'resqtether_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'resqtether_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'resqtether_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'resqtether_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.214s] Level 5:colcon.colcon_core.verb:set package 'resqtether_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.214s] DEBUG:colcon.colcon_core.verb:Building package 'resqtether_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dsc/resqtether_ws/build/resqtether_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dsc/resqtether_ws/install/resqtether_interfaces', 'merge_install': False, 'path': '/home/dsc/resqtether_ws/src/resqtether_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_signal_map' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_signal_map' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_signal_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_signal_map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_signal_map' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_signal_map' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_signal_map' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_signal_map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_signal_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'resqtether_signal_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dsc/resqtether_ws/build/resqtether_signal_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dsc/resqtether_ws/install/resqtether_signal_map', 'merge_install': False, 'path': '/home/dsc/resqtether_ws/src/resqtether_signal_map', 'symlink_install': True, 'test_result_base': None}
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_sim' build argument 'cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_sim' build argument 'cmake_target' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.215s] Level 5:colcon.colcon_core.verb:set package 'resqtether_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.215s] DEBUG:colcon.colcon_core.verb:Building package 'resqtether_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dsc/resqtether_ws/build/resqtether_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dsc/resqtether_ws/install/resqtether_sim', 'merge_install': False, 'path': '/home/dsc/resqtether_ws/src/resqtether_sim', 'symlink_install': True, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'resqtether_decision' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'resqtether_decision' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'resqtether_decision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'resqtether_decision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'resqtether_decision' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'resqtether_decision' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'resqtether_decision' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'resqtether_decision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'resqtether_decision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'resqtether_decision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dsc/resqtether_ws/build/resqtether_decision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dsc/resqtether_ws/install/resqtether_decision', 'merge_install': False, 'path': '/home/dsc/resqtether_ws/src/resqtether_decision', 'symlink_install': True, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'signal_mapper' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'signal_mapper' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'signal_mapper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'signal_mapper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'signal_mapper' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'signal_mapper' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'signal_mapper' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'signal_mapper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'signal_mapper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'signal_mapper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dsc/resqtether_ws/build/signal_mapper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dsc/resqtether_ws/install/signal_mapper', 'merge_install': False, 'path': '/home/dsc/resqtether_ws/src/signal_mapper', 'symlink_install': True, 'test_result_base': None}
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_target' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.218s] DEBUG:colcon.colcon_core.verb:Building package 'rover_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dsc/resqtether_ws/build/rover_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dsc/resqtether_ws/install/rover_bringup', 'merge_install': False, 'path': '/home/dsc/resqtether_ws/src/rover_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.218s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.219s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.220s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dsc/resqtether_ws/src/resqtether_interfaces' with build type 'ament_cmake'
+[0.220s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dsc/resqtether_ws/src/resqtether_interfaces'
+[0.224s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.226s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dsc/resqtether_ws/install/resqtether_sim' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.227s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dsc/resqtether_ws/install/resqtether_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.227s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dsc/resqtether_ws/install/resqtether_sim' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.227s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dsc/resqtether_ws/install/resqtether_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.233s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dsc/resqtether_ws/src/resqtether_signal_map' with build type 'ament_python'
+[0.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('resqtether_signal_map', 'ament_prefix_path')
+[0.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/resqtether_signal_map/share/resqtether_signal_map/hook/ament_prefix_path.dsv'
+[0.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/resqtether_signal_map/share/resqtether_signal_map/hook/ament_prefix_path.sh'
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.244s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dsc/resqtether_ws/src/resqtether_sim' with build type 'ament_cmake'
+[0.244s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dsc/resqtether_ws/src/resqtether_sim'
+[0.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dsc/resqtether_ws/build/resqtether_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dsc/resqtether_ws/src/resqtether_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dsc/resqtether_ws/install/resqtether_interfaces
+[0.579s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dsc/resqtether_ws/src/resqtether_signal_map'
+[0.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dsc/resqtether_ws/build/resqtether_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dsc/resqtether_ws/src/resqtether_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dsc/resqtether_ws/install/resqtether_sim
+[1.247s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_data, easy_install, install_egg_info, saveopts, build_scripts, dist_info, bdist_rpm, build, editable_wheel, alias, compile_catalog, init_catalog, develop, bdist, build_py, bdist_egg, bdist_wheel, install_headers, install, setopt, build_ext, egg_info, check, install_lib, install_scripts, rotate, clean, update_catalog, bdist_dumb, sdist, extract_messages, symlink_data, build_clib
+[1.593s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --user, --index-url, --help, --install-dir, --no-deps, --prefix, --verbose, --no-user-cfg, --quiet
+[1.593s] INFO:colcon.colcon_core.task.python.build:No '--editable' capability in setuptools, falling back to full install
+[1.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dsc/resqtether_ws/src/resqtether_signal_map': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/resqtether_signal_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_signal_map build --build-base /home/dsc/resqtether_ws/build/resqtether_signal_map/build install --record /home/dsc/resqtether_ws/build/resqtether_signal_map/install.log --install-scripts $base/lib/resqtether_signal_map --single-version-externally-managed install_data
+[1.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dsc/resqtether_ws/build/resqtether_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dsc/resqtether_ws/src/resqtether_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dsc/resqtether_ws/install/resqtether_sim
+[1.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dsc/resqtether_ws/build/resqtether_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dsc/resqtether_ws/build/resqtether_sim -- -j12 -l12
+[2.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dsc/resqtether_ws/src/resqtether_signal_map' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/resqtether_signal_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_signal_map build --build-base /home/dsc/resqtether_ws/build/resqtether_signal_map/build install --record /home/dsc/resqtether_ws/build/resqtether_signal_map/install.log --install-scripts $base/lib/resqtether_signal_map --single-version-externally-managed install_data
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_signal_map' for CMake module files
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_signal_map' for CMake config files
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_signal_map/lib'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_signal_map/bin'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_signal_map/lib/pkgconfig/resqtether_signal_map.pc'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages'
+[2.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('resqtether_signal_map', 'pythonpath')
+[2.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/resqtether_signal_map/share/resqtether_signal_map/hook/pythonpath.dsv'
+[2.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/resqtether_signal_map/share/resqtether_signal_map/hook/pythonpath.sh'
+[2.138s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_signal_map/bin'
+[2.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(resqtether_signal_map)
+[2.139s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dsc/resqtether_ws/install/resqtether_signal_map/share/resqtether_signal_map/package.dsv'
+[2.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_signal_map/share/resqtether_signal_map/package.sh'
+[2.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_signal_map/share/resqtether_signal_map/package.bash'
+[2.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_signal_map/share/resqtether_signal_map/package.zsh'
+[2.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dsc/resqtether_ws/install/resqtether_signal_map/share/colcon-core/packages/resqtether_signal_map)
+[2.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dsc/resqtether_ws/build/resqtether_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dsc/resqtether_ws/build/resqtether_sim -- -j12 -l12
+[2.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dsc/resqtether_ws/build/resqtether_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dsc/resqtether_ws/build/resqtether_sim
+[2.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(resqtether_sim)
+[2.819s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_sim' for CMake module files
+[2.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dsc/resqtether_ws/build/resqtether_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dsc/resqtether_ws/build/resqtether_sim
+[2.821s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_sim' for CMake config files
+[2.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('resqtether_sim', 'cmake_prefix_path')
+[2.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/hook/cmake_prefix_path.dsv'
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/hook/cmake_prefix_path.sh'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_sim/lib'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_sim/bin'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_sim/lib/pkgconfig/resqtether_sim.pc'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages'
+[2.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('resqtether_sim', 'pythonpath')
+[2.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/hook/pythonpath.dsv'
+[2.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/hook/pythonpath.sh'
+[2.828s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_sim/bin'
+[2.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/package.dsv'
+[2.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/package.sh'
+[2.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/package.bash'
+[2.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/package.zsh'
+[2.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dsc/resqtether_ws/install/resqtether_sim/share/colcon-core/packages/resqtether_sim)
+[2.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(resqtether_sim)
+[2.832s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_sim' for CMake module files
+[2.833s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_sim' for CMake config files
+[2.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('resqtether_sim', 'cmake_prefix_path')
+[2.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/hook/cmake_prefix_path.dsv'
+[2.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/hook/cmake_prefix_path.sh'
+[2.835s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_sim/lib'
+[2.835s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_sim/bin'
+[2.835s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_sim/lib/pkgconfig/resqtether_sim.pc'
+[2.835s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages'
+[2.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('resqtether_sim', 'pythonpath')
+[2.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/hook/pythonpath.dsv'
+[2.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/hook/pythonpath.sh'
+[2.837s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_sim/bin'
+[2.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/package.dsv'
+[2.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/package.sh'
+[2.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/package.bash'
+[2.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/package.zsh'
+[2.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dsc/resqtether_ws/install/resqtether_sim/share/colcon-core/packages/resqtether_sim)
+[4.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dsc/resqtether_ws/build/resqtether_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dsc/resqtether_ws/src/resqtether_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dsc/resqtether_ws/install/resqtether_interfaces
+[4.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dsc/resqtether_ws/build/resqtether_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dsc/resqtether_ws/build/resqtether_interfaces -- -j12 -l12
+[7.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dsc/resqtether_ws/build/resqtether_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dsc/resqtether_ws/build/resqtether_interfaces -- -j12 -l12
+[7.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dsc/resqtether_ws/build/resqtether_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dsc/resqtether_ws/build/resqtether_interfaces
+[8.677s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(resqtether_interfaces)
+[8.678s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_interfaces' for CMake module files
+[8.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dsc/resqtether_ws/build/resqtether_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dsc/resqtether_ws/build/resqtether_interfaces
+[8.679s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_interfaces' for CMake config files
+[8.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('resqtether_interfaces', 'cmake_prefix_path')
+[8.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/hook/cmake_prefix_path.dsv'
+[8.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/hook/cmake_prefix_path.sh'
+[8.681s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_interfaces/lib'
+[8.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('resqtether_interfaces', 'ld_library_path_lib')
+[8.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/hook/ld_library_path_lib.dsv'
+[8.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/hook/ld_library_path_lib.sh'
+[8.682s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_interfaces/bin'
+[8.682s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/pkgconfig/resqtether_interfaces.pc'
+[8.682s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages'
+[8.682s] Level 1:colcon.colcon_core.shell:create_environment_hook('resqtether_interfaces', 'pythonpath')
+[8.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/hook/pythonpath.dsv'
+[8.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/hook/pythonpath.sh'
+[8.683s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_interfaces/bin'
+[8.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/package.dsv'
+[8.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/package.sh'
+[8.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/package.bash'
+[8.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/package.zsh'
+[8.685s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dsc/resqtether_ws/install/resqtether_interfaces/share/colcon-core/packages/resqtether_interfaces)
+[8.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(resqtether_interfaces)
+[8.686s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_interfaces' for CMake module files
+[8.686s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_interfaces' for CMake config files
+[8.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('resqtether_interfaces', 'cmake_prefix_path')
+[8.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/hook/cmake_prefix_path.dsv'
+[8.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/hook/cmake_prefix_path.sh'
+[8.688s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_interfaces/lib'
+[8.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('resqtether_interfaces', 'ld_library_path_lib')
+[8.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/hook/ld_library_path_lib.dsv'
+[8.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/hook/ld_library_path_lib.sh'
+[8.689s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_interfaces/bin'
+[8.689s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/pkgconfig/resqtether_interfaces.pc'
+[8.689s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages'
+[8.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('resqtether_interfaces', 'pythonpath')
+[8.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/hook/pythonpath.dsv'
+[8.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/hook/pythonpath.sh'
+[8.690s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_interfaces/bin'
+[8.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/package.dsv'
+[8.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/package.sh'
+[8.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/package.bash'
+[8.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/package.zsh'
+[8.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dsc/resqtether_ws/install/resqtether_interfaces/share/colcon-core/packages/resqtether_interfaces)
+[8.692s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dsc/resqtether_ws/src/signal_mapper' with build type 'ament_python'
+[8.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_mapper', 'ament_prefix_path')
+[8.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/signal_mapper/share/signal_mapper/hook/ament_prefix_path.dsv'
+[8.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/signal_mapper/share/signal_mapper/hook/ament_prefix_path.sh'
+[8.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.699s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dsc/resqtether_ws/src/resqtether_decision' with build type 'ament_python'
+[8.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('resqtether_decision', 'ament_prefix_path')
+[8.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/resqtether_decision/share/resqtether_decision/hook/ament_prefix_path.dsv'
+[8.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/resqtether_decision/share/resqtether_decision/hook/ament_prefix_path.sh'
+[8.701s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.984s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dsc/resqtether_ws/src/signal_mapper'
+[8.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.275s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dsc/resqtether_ws/src/resqtether_decision'
+[9.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.856s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_data, easy_install, install_egg_info, saveopts, build_scripts, dist_info, bdist_rpm, build, editable_wheel, alias, compile_catalog, init_catalog, develop, bdist, build_py, bdist_egg, bdist_wheel, install_headers, install, setopt, build_ext, egg_info, check, install_lib, install_scripts, rotate, clean, update_catalog, bdist_dumb, sdist, extract_messages, symlink_data, build_clib
+[9.869s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_data, easy_install, install_egg_info, saveopts, build_scripts, dist_info, bdist_rpm, build, editable_wheel, alias, compile_catalog, init_catalog, develop, bdist, build_py, bdist_egg, bdist_wheel, install_headers, install, setopt, build_ext, egg_info, check, install_lib, install_scripts, rotate, clean, update_catalog, bdist_dumb, sdist, extract_messages, symlink_data, build_clib
+[10.156s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --user, --index-url, --help, --install-dir, --no-deps, --prefix, --verbose, --no-user-cfg, --quiet
+[10.156s] INFO:colcon.colcon_core.task.python.build:No '--editable' capability in setuptools, falling back to full install
+[10.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dsc/resqtether_ws/src/resqtether_decision': CMAKE_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:/home/dsc/resqtether_ws/install/resqtether_sim:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/resqtether_decision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/slam_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lidar_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_decision build --build-base /home/dsc/resqtether_ws/build/resqtether_decision/build install --record /home/dsc/resqtether_ws/build/resqtether_decision/install.log --install-scripts $base/lib/resqtether_decision --single-version-externally-managed install_data
+[10.176s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --user, --index-url, --help, --install-dir, --no-deps, --prefix, --verbose, --no-user-cfg, --quiet
+[10.176s] INFO:colcon.colcon_core.task.python.build:No '--editable' capability in setuptools, falling back to full install
+[10.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dsc/resqtether_ws/src/signal_mapper': CMAKE_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:/home/dsc/resqtether_ws/install/resqtether_sim:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/signal_mapper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/slam_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lidar_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/signal_mapper build --build-base /home/dsc/resqtether_ws/build/signal_mapper/build install --record /home/dsc/resqtether_ws/build/signal_mapper/install.log --install-scripts $base/lib/signal_mapper --single-version-externally-managed install_data
+[10.757s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_decision' for CMake module files
+[10.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dsc/resqtether_ws/src/resqtether_decision' returned '0': CMAKE_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:/home/dsc/resqtether_ws/install/resqtether_sim:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/resqtether_decision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/slam_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lidar_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_decision build --build-base /home/dsc/resqtether_ws/build/resqtether_decision/build install --record /home/dsc/resqtether_ws/build/resqtether_decision/install.log --install-scripts $base/lib/resqtether_decision --single-version-externally-managed install_data
+[10.758s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_decision' for CMake config files
+[10.759s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_decision/lib'
+[10.759s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_decision/bin'
+[10.759s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_decision/lib/pkgconfig/resqtether_decision.pc'
+[10.759s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages'
+[10.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('resqtether_decision', 'pythonpath')
+[10.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/resqtether_decision/share/resqtether_decision/hook/pythonpath.dsv'
+[10.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/resqtether_decision/share/resqtether_decision/hook/pythonpath.sh'
+[10.761s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/resqtether_decision/bin'
+[10.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(resqtether_decision)
+[10.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dsc/resqtether_ws/install/resqtether_decision/share/resqtether_decision/package.dsv'
+[10.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_decision/share/resqtether_decision/package.sh'
+[10.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_decision/share/resqtether_decision/package.bash'
+[10.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/resqtether_decision/share/resqtether_decision/package.zsh'
+[10.763s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dsc/resqtether_ws/install/resqtether_decision/share/colcon-core/packages/resqtether_decision)
+[10.765s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/signal_mapper' for CMake module files
+[10.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dsc/resqtether_ws/src/signal_mapper' returned '0': CMAKE_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:/home/dsc/resqtether_ws/install/resqtether_sim:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/signal_mapper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/slam_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lidar_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/signal_mapper build --build-base /home/dsc/resqtether_ws/build/signal_mapper/build install --record /home/dsc/resqtether_ws/build/signal_mapper/install.log --install-scripts $base/lib/signal_mapper --single-version-externally-managed install_data
+[10.766s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/signal_mapper' for CMake config files
+[10.766s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/signal_mapper/lib'
+[10.766s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/signal_mapper/bin'
+[10.766s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/signal_mapper/lib/pkgconfig/signal_mapper.pc'
+[10.767s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages'
+[10.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_mapper', 'pythonpath')
+[10.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/signal_mapper/share/signal_mapper/hook/pythonpath.dsv'
+[10.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/signal_mapper/share/signal_mapper/hook/pythonpath.sh'
+[10.768s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/signal_mapper/bin'
+[10.768s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(signal_mapper)
+[10.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dsc/resqtether_ws/install/signal_mapper/share/signal_mapper/package.dsv'
+[10.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/signal_mapper/share/signal_mapper/package.sh'
+[10.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/signal_mapper/share/signal_mapper/package.bash'
+[10.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/signal_mapper/share/signal_mapper/package.zsh'
+[10.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dsc/resqtether_ws/install/signal_mapper/share/colcon-core/packages/signal_mapper)
+[10.770s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dsc/resqtether_ws/src/rover_bringup' with build type 'ament_python'
+[10.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_bringup', 'ament_prefix_path')
+[10.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/rover_bringup/share/rover_bringup/hook/ament_prefix_path.dsv'
+[10.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/rover_bringup/share/rover_bringup/hook/ament_prefix_path.sh'
+[10.773s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.061s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dsc/resqtether_ws/src/rover_bringup'
+[11.062s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.604s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_data, easy_install, install_egg_info, saveopts, build_scripts, dist_info, bdist_rpm, build, editable_wheel, alias, compile_catalog, init_catalog, develop, bdist, build_py, bdist_egg, bdist_wheel, install_headers, install, setopt, build_ext, egg_info, check, install_lib, install_scripts, rotate, clean, update_catalog, bdist_dumb, sdist, extract_messages, symlink_data, build_clib
+[11.897s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --user, --index-url, --help, --install-dir, --no-deps, --prefix, --verbose, --no-user-cfg, --quiet
+[11.897s] INFO:colcon.colcon_core.task.python.build:No '--editable' capability in setuptools, falling back to full install
+[11.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dsc/resqtether_ws/src/rover_bringup': AMENT_PREFIX_PATH=/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/lidar_bringup:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/resqtether_sim:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/resqtether_interfaces:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:/home/dsc/resqtether_ws/install/resqtether_sim:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/rover_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/slam_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lidar_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_bringup build --build-base /home/dsc/resqtether_ws/build/rover_bringup/build install --record /home/dsc/resqtether_ws/build/rover_bringup/install.log --install-scripts $base/lib/rover_bringup --single-version-externally-managed install_data
+[12.452s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/rover_bringup' for CMake module files
+[12.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dsc/resqtether_ws/src/rover_bringup' returned '0': AMENT_PREFIX_PATH=/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/lidar_bringup:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/resqtether_sim:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/resqtether_interfaces:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:/home/dsc/resqtether_ws/install/resqtether_sim:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/rover_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/slam_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lidar_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_bringup build --build-base /home/dsc/resqtether_ws/build/rover_bringup/build install --record /home/dsc/resqtether_ws/build/rover_bringup/install.log --install-scripts $base/lib/rover_bringup --single-version-externally-managed install_data
+[12.454s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/rover_bringup' for CMake config files
+[12.455s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/rover_bringup/lib'
+[12.456s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/rover_bringup/bin'
+[12.456s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/rover_bringup/lib/pkgconfig/rover_bringup.pc'
+[12.456s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages'
+[12.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_bringup', 'pythonpath')
+[12.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dsc/resqtether_ws/install/rover_bringup/share/rover_bringup/hook/pythonpath.dsv'
+[12.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dsc/resqtether_ws/install/rover_bringup/share/rover_bringup/hook/pythonpath.sh'
+[12.459s] Level 1:colcon.colcon_core.environment:checking '/home/dsc/resqtether_ws/install/rover_bringup/bin'
+[12.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_bringup)
+[12.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dsc/resqtether_ws/install/rover_bringup/share/rover_bringup/package.dsv'
+[12.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/rover_bringup/share/rover_bringup/package.sh'
+[12.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/rover_bringup/share/rover_bringup/package.bash'
+[12.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/dsc/resqtether_ws/install/rover_bringup/share/rover_bringup/package.zsh'
+[12.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dsc/resqtether_ws/install/rover_bringup/share/colcon-core/packages/rover_bringup)
+[12.464s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.465s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.480s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.516s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.516s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dsc/resqtether_ws/install/local_setup.sh'
+[12.518s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dsc/resqtether_ws/install/_local_setup_util_sh.py'
+[12.520s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dsc/resqtether_ws/install/setup.sh'
+[12.524s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dsc/resqtether_ws/install/local_setup.bash'
+[12.525s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dsc/resqtether_ws/install/setup.bash'
+[12.528s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dsc/resqtether_ws/install/local_setup.zsh'
+[12.529s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dsc/resqtether_ws/install/setup.zsh'

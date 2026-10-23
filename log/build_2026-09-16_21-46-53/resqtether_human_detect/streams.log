@@ -1,0 +1,78 @@
+[0.689s] Invoking command in '/home/dsc/resqtether_ws/src/resqtether_human_detect': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/resqtether_human_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_human_detect build --build-base /home/dsc/resqtether_ws/build/resqtether_human_detect/build install --record /home/dsc/resqtether_ws/build/resqtether_human_detect/install.log --install-scripts $base/lib/resqtether_human_detect --single-version-externally-managed install_data
+[0.824s] /home/dsc/.local/lib/python3.12/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[0.824s] !!
+[0.824s] 
+[0.824s]         ********************************************************************************
+[0.825s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.825s]         versions. Please use the underscore name 'script_dir' instead.
+[0.825s] 
+[0.825s] 
+[0.825s]         Available configuration options are listed in:
+[0.825s]         https://setuptools.pypa.io/en/latest/userguide/declarative_config.html
+[0.826s] 
+[0.826s]         This deprecation is overdue, please update your project and remove deprecated
+[0.826s]         calls to avoid build errors in the future.
+[0.826s] 
+[0.826s]         See https://github.com/pypa/setuptools/discussions/5011 for details.
+[0.826s]         ********************************************************************************
+[0.827s] 
+[0.827s] !!
+[0.827s]   opt = self._enforce_underscore(opt, section)
+[0.835s] /home/dsc/.local/lib/python3.12/site-packages/setuptools/_distutils/dist.py:318: UserWarning: Unknown distribution option: 'tests_require'
+[0.835s]   warnings.warn(msg)
+[0.858s] /home/dsc/.local/lib/python3.12/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[0.858s] !!
+[0.858s] 
+[0.858s]         ********************************************************************************
+[0.859s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.859s]         versions. Please use the underscore name 'script_dir' instead.
+[0.859s]         (Affected: resqtether_human_detect).
+[0.859s] 
+[0.859s]         Available configuration options are listed in:
+[0.859s]         https://setuptools.pypa.io/en/latest/userguide/declarative_config.html
+[0.860s] 
+[0.860s]         This deprecation is overdue, please update your project and remove deprecated
+[0.860s]         calls to avoid build errors in the future.
+[0.860s] 
+[0.860s]         See https://github.com/pypa/setuptools/discussions/5011 for details.
+[0.860s]         ********************************************************************************
+[0.860s] 
+[0.861s] !!
+[0.861s]   opt = self._enforce_underscore(opt, section)
+[0.902s] running egg_info
+[0.914s] creating ../../build/resqtether_human_detect/resqtether_human_detect.egg-info
+[0.914s] writing ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/PKG-INFO
+[0.915s] writing dependency_links to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/dependency_links.txt
+[0.915s] writing entry points to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/entry_points.txt
+[0.915s] writing requirements to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/requires.txt
+[0.915s] writing top-level names to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/top_level.txt
+[0.915s] writing manifest file '../../build/resqtether_human_detect/resqtether_human_detect.egg-info/SOURCES.txt'
+[0.939s] reading manifest file '../../build/resqtether_human_detect/resqtether_human_detect.egg-info/SOURCES.txt'
+[0.940s] writing manifest file '../../build/resqtether_human_detect/resqtether_human_detect.egg-info/SOURCES.txt'
+[0.941s] running build
+[0.941s] running build_py
+[0.941s] creating /home/dsc/resqtether_ws/build/resqtether_human_detect/build/lib/resqtether_human_detect
+[0.941s] copying resqtether_human_detect/__init__.py -> /home/dsc/resqtether_ws/build/resqtether_human_detect/build/lib/resqtether_human_detect
+[0.941s] copying resqtether_human_detect/human_detect_node.py -> /home/dsc/resqtether_ws/build/resqtether_human_detect/build/lib/resqtether_human_detect
+[0.942s] copying resqtether_human_detect/camera_source.py -> /home/dsc/resqtether_ws/build/resqtether_human_detect/build/lib/resqtether_human_detect
+[0.942s] running install
+[0.946s] running install_lib
+[0.957s] creating /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect
+[0.958s] copying /home/dsc/resqtether_ws/build/resqtether_human_detect/build/lib/resqtether_human_detect/__init__.py -> /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect
+[0.958s] copying /home/dsc/resqtether_ws/build/resqtether_human_detect/build/lib/resqtether_human_detect/human_detect_node.py -> /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect
+[0.958s] copying /home/dsc/resqtether_ws/build/resqtether_human_detect/build/lib/resqtether_human_detect/camera_source.py -> /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect
+[0.958s] byte-compiling /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect/__init__.py to __init__.cpython-312.pyc
+[0.958s] byte-compiling /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect/human_detect_node.py to human_detect_node.cpython-312.pyc
+[0.959s] byte-compiling /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect/camera_source.py to camera_source.cpython-312.pyc
+[0.960s] running install_data
+[0.960s] creating /home/dsc/resqtether_ws/install/resqtether_human_detect/share/ament_index/resource_index/packages
+[0.961s] copying resource/resqtether_human_detect -> /home/dsc/resqtether_ws/install/resqtether_human_detect/share/ament_index/resource_index/packages
+[0.961s] copying package.xml -> /home/dsc/resqtether_ws/install/resqtether_human_detect/share/resqtether_human_detect
+[0.961s] creating /home/dsc/resqtether_ws/install/resqtether_human_detect/share/resqtether_human_detect/launch
+[0.961s] copying launch/human_detect.launch.py -> /home/dsc/resqtether_ws/install/resqtether_human_detect/share/resqtether_human_detect/launch
+[0.962s] running install_egg_info
+[0.973s] Copying ../../build/resqtether_human_detect/resqtether_human_detect.egg-info to /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect-0.0.0-py3.12.egg-info
+[0.974s] running install_scripts
+[0.997s] Installing human_detect_node script to /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/resqtether_human_detect
+[0.998s] writing list of installed files to '/home/dsc/resqtether_ws/build/resqtether_human_detect/install.log'
+[1.038s] Invoked command in '/home/dsc/resqtether_ws/src/resqtether_human_detect' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/resqtether_human_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_human_detect build --build-base /home/dsc/resqtether_ws/build/resqtether_human_detect/build install --record /home/dsc/resqtether_ws/build/resqtether_human_detect/install.log --install-scripts $base/lib/resqtether_human_detect --single-version-externally-managed install_data

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ResQTether Central Mission Control</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg: #0b0d14;
+      --card-bg: #141724;
+      --card-border: #23283d;
+      --accent: #00d2ff;
+      --green: #00e676;
+      --yellow: #ffd166;
+      --red: #ff3366;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 16px;
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 12px 20px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 20px;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .badge-bar {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      background: #1c2136;
+      border: 1px solid var(--card-border);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .badge span { color: var(--accent); }
+
+    /* Main Grid Layout */
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--accent);
+      border-bottom: 1px solid #1e2338;
+      padding-bottom: 8px;
+    }
+
+    /* Video Feed Container */
+    .video-frame {
+      width: 100%;
+      height: 320px;
+      background: #000;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border: 1px solid #2a314d;
+    }
+    .video-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    /* Canvas Map & Radar */
+    .canvas-container {
+      width: 100%;
+      height: 320px;
+      background: #0d0f17;
+      border-radius: 10px;
+      position: relative;
+      border: 1px solid #2a314d;
+    }
+    canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+      border-radius: 10px;
+    }
+
+    /* Log Box */
+    .log-container {
+      height: 190px;
+      overflow-y: auto;
+      background: #0d0f17;
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-family: monospace;
+      font-size: 13px;
+      border: 1px solid #2a314d;
+    }
+    .log-item {
+      padding: 5px 0;
+      border-bottom: 1px solid #1a1e2e;
+      color: var(--yellow);
+    }
+    .log-item.alert { color: var(--red); font-weight: bold; }
+
+    /* On-Screen Teleop Controls */
+    .teleop-box {
+      display: grid;
+      grid-template-columns: repeat(3, 70px);
+      gap: 10px;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .btn-key {
+      background: #232940;
+      color: white;
+      border: 1px solid #363e61;
+      border-radius: 10px;
+      height: 60px;
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+    }
+    .btn-key:active, .btn-key.active {
+      background: var(--accent);
+      color: #000;
+      transform: scale(0.95);
+    }
+    .btn-stop {
+      background: var(--red);
+      border-color: #ff5252;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🛰️ ResQTether: Unified Mission Command</h1>
+    <div class="badge-bar">
+      <div class="badge">SIGNAL: <span id="badge-rssi">-- dBm</span></div>
+      <div class="badge">VICTIMS: <span id="badge-victims" style="color:var(--red);">0</span></div>
+      <div class="badge">STATE: <span id="badge-state">STANDBY</span></div>
+      <div class="badge">LINK: <span id="badge-link" style="color:var(--green);">ONLINE</span></div>
+    </div>
+  </header>
+
+  <div class="dashboard-grid">
+
+    <!-- 1. Live Camera Stream with Human Detection -->
+    <div class="card">
+      <div class="card-header">
+        <span>📹 Live Camera & Human Detection (30 FPS)</span>
+        <span id="cam-fps" style="font-size:12px; color:var(--text-muted);">Stream Active</span>
+      </div>
+      <div class="video-frame">
+        <img src="/stream.mjpg" alt="Connecting to Camera Stream...">
+      </div>
+    </div>
+
+    <!-- 2. Live 2D LiDAR & Signal Heatmap Overlay -->
+    <div class="card">
+      <div class="card-header">
+        <span>🗺️ Live 2D LiDAR & Signal Heatmap Radar</span>
+        <span style="font-size:12px; color:var(--text-muted);">LiDAR: Green | Heatmap: RSSI</span>
+      </div>
+      <div class="canvas-container">
+        <canvas id="lidarCanvas"></canvas>
+      </div>
+    </div>
+
+    <!-- 3. Real-Time Dynamic RSSI Graph -->
+    <div class="card">
+      <div class="card-header">
+        <span>📈 Real-Time Rolling Signal Strength (dBm)</span>
+        <span id="rssi-class" style="font-size:12px; color:var(--green);">Strong Signal</span>
+      </div>
+      <div style="height: 250px; position: relative;">
+        <canvas id="rssiChart"></canvas>
+      </div>
+    </div>
+
+    <!-- 4. Rescue Logs & Teleop Controls -->
+    <div class="card">
+      <div class="card-header">
+        <span>🚨 Rescue Mission Event Log & Teleop</span>
+        <span style="font-size:12px; color:var(--text-muted);">Use WASD or Click</span>
+      </div>
+      <div class="log-container" id="logBox">
+        <div class="log-item">System initialized. Awaiting victim alerts...</div>
+      </div>
+
+      <div class="teleop-box">
+        <div></div>
+        <button class="btn-key" id="k-w" onmousedown="sendVel(1.0, 0.0)" onmouseup="sendVel(0,0)" ontouchstart="sendVel(1.0,0.0)" ontouchend="sendVel(0,0)">W</button>
+        <div></div>
+        <button class="btn-key" id="k-a" onmousedown="sendVel(0.0, 1.0)" onmouseup="sendVel(0,0)" ontouchstart="sendVel(0.0,1.0)" ontouchend="sendVel(0,0)">A</button>
+        <button class="btn-key btn-stop" onclick="sendVel(0.0, 0.0)">🛑</button>
+        <button class="btn-key" id="k-d" onmousedown="sendVel(0.0, -1.0)" onmouseup="sendVel(0,0)" ontouchstart="sendVel(0.0,-1.0)" ontouchend="sendVel(0,0)">D</button>
+        <div></div>
+        <button class="btn-key" id="k-s" onmousedown="sendVel(-1.0, 0.0)" onmouseup="sendVel(0,0)" ontouchstart="sendVel(-1.0,0.0)" ontouchend="sendVel(0,0)">S</button>
+        <div></div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    // -------------------------------------------------------------
+    // 1. Chart.js RSSI Setup
+    // -------------------------------------------------------------
+    const ctx = document.getElementById('rssiChart').getContext('2d');
+    const rssiData = {
+      labels: [],
+      datasets: [{
+        label: 'Signal Strength (dBm)',
+        data: [],
+        borderColor: '#00d2ff',
+        backgroundColor: 'rgba(0, 210, 255, 0.1)',
+        borderWidth: 2.2,
+        tension: 0.3,
+        fill: true,
+        pointRadius: 2
+      }]
+    };
+    const rssiChart = new Chart(ctx, {
+      type: 'line',
+      data: rssiData,
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: false,
+        scales: {
+          x: { display: false },
+          y: {
+            min: -105,
+            max: -35,
+            grid: { color: '#23283d' },
+            ticks: { color: '#8b949e' }
+          }
+        },
+        plugins: {
+          legend: { display: false }
+        }
+      }
+    });
+
+    // -------------------------------------------------------------
+    // 2. HTML5 Canvas LiDAR Radar & Heatmap Renderer
+    // -------------------------------------------------------------
+    const canvas = document.getElementById('lidarCanvas');
+    const c = canvas.getContext('2d');
+
+    function resizeCanvas() {
+      canvas.width = canvas.parentElement.clientWidth;
+      canvas.height = canvas.parentElement.clientHeight;
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    let latestScan = [];
+    let latestHeatmap = [];
+    let robotPose = { x: 0, y: 0, yaw: 0 };
+
+    function drawRadar() {
+      c.clearRect(0, 0, canvas.width, canvas.height);
+      const cx = canvas.width / 2;
+      const cy = canvas.height / 2;
+      const scale = canvas.width / 12.0; // 12m view field
+
+      // Concentric Distance Rings
+      c.strokeStyle = '#1a1f33';
+      c.lineWidth = 1;
+      for (let r = 1; r <= 5; r++) {
+        c.beginPath();
+        c.arc(cx, cy, r * scale, 0, Math.PI * 2);
+        c.stroke();
+      }
+
+      // Draw Signal Heatmap Cells
+      latestHeatmap.forEach(cell => {
+        const px = cx + (cell.x - robotPose.x) * scale;
+        const py = cy - (cell.y - robotPose.y) * scale;
+        const size = (cell.size || 0.25) * scale;
+
+        // Color based on RSSI
+        if (cell.rssi >= -65) c.fillStyle = 'rgba(0, 230, 118, 0.4)';
+        else if (cell.rssi >= -75) c.fillStyle = 'rgba(255, 209, 102, 0.4)';
+        else c.fillStyle = 'rgba(255, 51, 102, 0.4)';
+
+        c.fillRect(px - size/2, py - size/2, size, size);
+      });
+
+      // Draw LiDAR Scan Points (Green Dots)
+      c.fillStyle = '#00e676';
+      latestScan.forEach(pt => {
+        const sx = cx + pt.x * scale;
+        const sy = cy - pt.y * scale;
+        c.fillRect(sx - 1.5, sy - 1.5, 3, 3);
+      });
+
+      // Draw Robot (Cyan Arrow at Center)
+      c.save();
+      c.translate(cx, cy);
+      c.fillStyle = '#00d2ff';
+      c.beginPath();
+      c.moveTo(0, -12);
+      c.lineTo(-8, 8);
+      c.lineTo(0, 4);
+      c.lineTo(8, 8);
+      c.closePath();
+      c.fill();
+      c.restore();
+
+      requestAnimationFrame(drawRadar);
+    }
+    requestAnimationFrame(drawRadar);
+
+    // -------------------------------------------------------------
+    // 3. Periodic Telemetry Fetching (10 Hz)
+    // -------------------------------------------------------------
+    let timeStep = 0;
+    setInterval(() => {
+      fetch('/telemetry')
+        .then(res => res.json())
+        .then(data => {
+          // Update Badges
+          document.getElementById('badge-rssi').innerText = data.rssi.toFixed(1) + ' dBm';
+          document.getElementById('badge-victims').innerText = data.victims;
+          document.getElementById('badge-state').innerText = data.state;
+
+          const rClass = document.getElementById('rssi-class');
+          if (data.rssi >= -65) {
+            rClass.innerText = "Strong Signal"; rClass.style.color = 'var(--green)';
+          } else if (data.rssi >= -75) {
+            rClass.innerText = "Marginal Signal"; rClass.style.color = 'var(--yellow)';
+          } else {
+            rClass.innerText = "Dead Zone (Relay Active)"; rClass.style.color = 'var(--red)';
+          }
+
+          // Update Chart
+          timeStep++;
+          rssiData.labels.push(timeStep);
+          rssiData.datasets[0].data.push(data.rssi);
+          if (rssiData.labels.length > 50) {
+            rssiData.labels.shift();
+            rssiData.datasets[0].data.shift();
+          }
+          rssiChart.update();
+
+          // Update LiDAR & Heatmap data
+          if (data.scan) latestScan = data.scan;
+          if (data.heatmap) latestHeatmap = data.heatmap;
+          if (data.pose) robotPose = data.pose;
+
+          // Update Event Logs
+          if (data.alerts && data.alerts.length > 0) {
+            const logBox = document.getElementById('logBox');
+            logBox.innerHTML = '';
+            data.alerts.slice(-8).reverse().forEach(a => {
+              const div = document.createElement('div');
+              div.className = 'log-item alert';
+              div.innerText = '🚨 ' + a;
+              logBox.appendChild(div);
+            });
+          }
+        })
+        .catch(() => {});
+    }, 150);
+
+    // -------------------------------------------------------------
+    // 4. WASD Keyboard & Touch Teleop
+    // -------------------------------------------------------------
+    function sendVel(linear, angular) {
+      fetch(`/teleop?vx=${linear}&wz=${angular}`).catch(() => {});
+    }
+
+    const keyMap = { 'w': false, 's': false, 'a': false, 'd': false, ' ': false };
+    window.addEventListener('keydown', (e) => {
+      const k = e.key.toLowerCase();
+      if (k in keyMap && !keyMap[k]) {
+        keyMap[k] = true;
+        updateKeyTeleop();
+      }
+    });
+
+    window.addEventListener('keyup', (e) => {
+      const k = e.key.toLowerCase();
+      if (k in keyMap) {
+        keyMap[k] = false;
+        updateKeyTeleop();
+      }
+    });
+
+    function updateKeyTeleop() {
+      let vx = 0.0;
+      let wz = 0.0;
+      if (keyMap['w']) vx += 1.0;
+      if (keyMap['s']) vx -= 1.0;
+      if (keyMap['a']) wz += 1.0;
+      if (keyMap['d']) wz -= 1.0;
+      if (keyMap[' ']) { vx = 0.0; wz = 0.0; }
+      sendVel(vx, wz);
+    }
+  </script>
+</body>
+</html>

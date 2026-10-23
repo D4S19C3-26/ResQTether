@@ -1,0 +1,7 @@
+{
+  "package_name": "resqtether_interfaces",
+  "non_idl_tuples": [
+    "/home/dsc/resqtether_ws/src/resqtether_interfaces:msg/LoraStatus.msg",
+    "/home/dsc/resqtether_ws/src/resqtether_interfaces:msg/VictimAlert.msg"
+  ]
+}

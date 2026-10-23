@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dsc/resqtether_ws/build/resqtether_interfaces/rosidl_generator_py/resqtether_interfaces/resqtether_interfaces_s__rosidl_typesupport_c.so" "TARGETS" "resqtether_interfaces_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/resqtether_interfaces")

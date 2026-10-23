@@ -1,0 +1,3 @@
+[console_scripts]
+lora_serial_node = lora_bringup.lora_serial_node:main
+lora_sim_node = lora_bringup.lora_sim_node:main

@@ -1,0 +1,46 @@
+Built target ament_cmake_python_copy_resqtether_sim
+running egg_info
+writing resqtether_sim.egg-info/PKG-INFO
+writing dependency_links to resqtether_sim.egg-info/dependency_links.txt
+writing top-level names to resqtether_sim.egg-info/top_level.txt
+reading manifest file 'resqtether_sim.egg-info/SOURCES.txt'
+writing manifest file 'resqtether_sim.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_resqtether_sim_egg
+-- Install configuration: ""
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/urdf
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/urdf/resqtether.urdf.xacro
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/worlds
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/worlds/collapsed_structure.world
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/launch
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/launch/sim_slam.launch.py
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/launch/sim.launch.py
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/rviz
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/rviz/slam.rviz
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/pythonpath.sh
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/pythonpath.dsv
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim-0.0.0-py3.12.egg-info
+-- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim-0.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim/__init__.py
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim/rssi_model.py
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim/signal_map_node.py
+Listing '/home/dsc/resqtether_ws/install/resqtether_sim/lib/python3.12/site-packages/resqtether_sim'...
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/lib/resqtether_sim/signal_map_node.py
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/ament_index/resource_index/package_run_dependencies/resqtether_sim
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/ament_index/resource_index/parent_prefix_path/resqtether_sim
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/path.sh
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/environment/path.dsv
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/local_setup.bash
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/local_setup.sh
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/local_setup.zsh
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/local_setup.dsv
+-- Installing: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/package.dsv
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/ament_index/resource_index/packages/resqtether_sim
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/cmake/resqtether_simConfig.cmake
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/cmake/resqtether_simConfig-version.cmake
+-- Up-to-date: /home/dsc/resqtether_ws/install/resqtether_sim/share/resqtether_sim/package.xml

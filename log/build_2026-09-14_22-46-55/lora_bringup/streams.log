@@ -1,0 +1,40 @@
+[0.756s] Invoking command in '/home/dsc/resqtether_ws/src/lora_bringup': AMENT_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dsc/resqtether_ws/build/lora_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lora_bringup build --build-base /home/dsc/resqtether_ws/build/lora_bringup/build install --record /home/dsc/resqtether_ws/build/lora_bringup/install.log --install-scripts $base/lib/lora_bringup --single-version-externally-managed install_data
+[1.050s] running egg_info
+[1.072s] creating ../../build/lora_bringup/lora_bringup.egg-info
+[1.072s] writing ../../build/lora_bringup/lora_bringup.egg-info/PKG-INFO
+[1.073s] writing dependency_links to ../../build/lora_bringup/lora_bringup.egg-info/dependency_links.txt
+[1.073s] writing entry points to ../../build/lora_bringup/lora_bringup.egg-info/entry_points.txt
+[1.073s] writing requirements to ../../build/lora_bringup/lora_bringup.egg-info/requires.txt
+[1.073s] writing top-level names to ../../build/lora_bringup/lora_bringup.egg-info/top_level.txt
+[1.073s] writing manifest file '../../build/lora_bringup/lora_bringup.egg-info/SOURCES.txt'
+[1.118s] reading manifest file '../../build/lora_bringup/lora_bringup.egg-info/SOURCES.txt'
+[1.118s] writing manifest file '../../build/lora_bringup/lora_bringup.egg-info/SOURCES.txt'
+[1.119s] running build
+[1.119s] running build_py
+[1.119s] creating /home/dsc/resqtether_ws/build/lora_bringup/build/lib/lora_bringup
+[1.120s] copying lora_bringup/__init__.py -> /home/dsc/resqtether_ws/build/lora_bringup/build/lib/lora_bringup
+[1.120s] copying lora_bringup/lora_serial_node.py -> /home/dsc/resqtether_ws/build/lora_bringup/build/lib/lora_bringup
+[1.120s] copying lora_bringup/lora_sim_node.py -> /home/dsc/resqtether_ws/build/lora_bringup/build/lib/lora_bringup
+[1.120s] running install
+[1.124s] running install_lib
+[1.146s] creating /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup
+[1.146s] copying /home/dsc/resqtether_ws/build/lora_bringup/build/lib/lora_bringup/__init__.py -> /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup
+[1.147s] copying /home/dsc/resqtether_ws/build/lora_bringup/build/lib/lora_bringup/lora_serial_node.py -> /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup
+[1.147s] copying /home/dsc/resqtether_ws/build/lora_bringup/build/lib/lora_bringup/lora_sim_node.py -> /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup
+[1.147s] byte-compiling /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup/__init__.py to __init__.cpython-312.pyc
+[1.148s] byte-compiling /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup/lora_serial_node.py to lora_serial_node.cpython-312.pyc
+[1.149s] byte-compiling /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup/lora_sim_node.py to lora_sim_node.cpython-312.pyc
+[1.150s] running install_data
+[1.150s] creating /home/dsc/resqtether_ws/install/lora_bringup/share/ament_index/resource_index/packages
+[1.150s] copying resource/lora_bringup -> /home/dsc/resqtether_ws/install/lora_bringup/share/ament_index/resource_index/packages
+[1.151s] copying package.xml -> /home/dsc/resqtether_ws/install/lora_bringup/share/lora_bringup
+[1.151s] creating /home/dsc/resqtether_ws/install/lora_bringup/share/lora_bringup/launch
+[1.151s] copying launch/lora.launch.py -> /home/dsc/resqtether_ws/install/lora_bringup/share/lora_bringup/launch
+[1.152s] copying launch/lora_sim.launch.py -> /home/dsc/resqtether_ws/install/lora_bringup/share/lora_bringup/launch
+[1.152s] running install_egg_info
+[1.173s] Copying ../../build/lora_bringup/lora_bringup.egg-info to /home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages/lora_bringup-0.0.0-py3.12.egg-info
+[1.174s] running install_scripts
+[1.219s] Installing lora_serial_node script to /home/dsc/resqtether_ws/install/lora_bringup/lib/lora_bringup
+[1.220s] Installing lora_sim_node script to /home/dsc/resqtether_ws/install/lora_bringup/lib/lora_bringup
+[1.220s] writing list of installed files to '/home/dsc/resqtether_ws/build/lora_bringup/install.log'
+[1.260s] Invoked command in '/home/dsc/resqtether_ws/src/lora_bringup' returned '0': AMENT_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dsc/resqtether_ws/build/lora_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lora_bringup build --build-base /home/dsc/resqtether_ws/build/lora_bringup/build install --record /home/dsc/resqtether_ws/build/lora_bringup/install.log --install-scripts $base/lib/lora_bringup --single-version-externally-managed install_data

@@ -1,0 +1,23 @@
+[2.664s] Invoking command in '/home/dsc/resqtether_ws/src/resqtether_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/resqtether_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_bringup build --build-base /home/dsc/resqtether_ws/build/resqtether_bringup/build install --record /home/dsc/resqtether_ws/build/resqtether_bringup/install.log --install-scripts $base/lib/resqtether_bringup --single-version-externally-managed install_data
+[3.263s] running egg_info
+[3.311s] writing ../../build/resqtether_bringup/resqtether_bringup.egg-info/PKG-INFO
+[3.312s] writing dependency_links to ../../build/resqtether_bringup/resqtether_bringup.egg-info/dependency_links.txt
+[3.313s] writing entry points to ../../build/resqtether_bringup/resqtether_bringup.egg-info/entry_points.txt
+[3.313s] writing requirements to ../../build/resqtether_bringup/resqtether_bringup.egg-info/requires.txt
+[3.313s] writing top-level names to ../../build/resqtether_bringup/resqtether_bringup.egg-info/top_level.txt
+[3.403s] reading manifest file '../../build/resqtether_bringup/resqtether_bringup.egg-info/SOURCES.txt'
+[3.405s] writing manifest file '../../build/resqtether_bringup/resqtether_bringup.egg-info/SOURCES.txt'
+[3.405s] running build
+[3.405s] running build_py
+[3.406s] running install
+[3.416s] running install_lib
+[3.459s] running install_data
+[3.460s] copying launch/full_system.launch.py -> /home/dsc/resqtether_ws/install/resqtether_bringup/share/resqtether_bringup/launch
+[3.460s] running install_egg_info
+[3.498s] removing '/home/dsc/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages/resqtether_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[3.500s] Copying ../../build/resqtether_bringup/resqtether_bringup.egg-info to /home/dsc/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages/resqtether_bringup-0.0.0-py3.12.egg-info
+[3.504s] running install_scripts
+[3.579s] Installing fake_lidar_node script to /home/dsc/resqtether_ws/install/resqtether_bringup/lib/resqtether_bringup
+[3.579s] Installing lidar_health_check script to /home/dsc/resqtether_ws/install/resqtether_bringup/lib/resqtether_bringup
+[3.580s] writing list of installed files to '/home/dsc/resqtether_ws/build/resqtether_bringup/install.log'
+[3.640s] Invoked command in '/home/dsc/resqtether_ws/src/resqtether_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/resqtether_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_bringup build --build-base /home/dsc/resqtether_ws/build/resqtether_bringup/build install --record /home/dsc/resqtether_ws/build/resqtether_bringup/install.log --install-scripts $base/lib/resqtether_bringup --single-version-externally-managed install_data

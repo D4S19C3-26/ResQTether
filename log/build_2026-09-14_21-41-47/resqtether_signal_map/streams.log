@@ -1,0 +1,28 @@
+[2.200s] Invoking command in '/home/dsc/resqtether_ws/src/resqtether_signal_map': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/resqtether_signal_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_signal_map build --build-base /home/dsc/resqtether_ws/build/resqtether_signal_map/build install --record /home/dsc/resqtether_ws/build/resqtether_signal_map/install.log --install-scripts $base/lib/resqtether_signal_map --single-version-externally-managed install_data
+[2.573s] running egg_info
+[2.601s] writing ../../build/resqtether_signal_map/resqtether_signal_map.egg-info/PKG-INFO
+[2.602s] writing dependency_links to ../../build/resqtether_signal_map/resqtether_signal_map.egg-info/dependency_links.txt
+[2.603s] writing requirements to ../../build/resqtether_signal_map/resqtether_signal_map.egg-info/requires.txt
+[2.603s] writing top-level names to ../../build/resqtether_signal_map/resqtether_signal_map.egg-info/top_level.txt
+[2.664s] reading manifest file '../../build/resqtether_signal_map/resqtether_signal_map.egg-info/SOURCES.txt'
+[2.667s] writing manifest file '../../build/resqtether_signal_map/resqtether_signal_map.egg-info/SOURCES.txt'
+[2.667s] running build
+[2.668s] running build_py
+[2.669s] copying resqtether_signal_map/rssi_model.py -> /home/dsc/resqtether_ws/build/resqtether_signal_map/build/lib/resqtether_signal_map
+[2.669s] copying resqtether_signal_map/test_rssi_model.py -> /home/dsc/resqtether_ws/build/resqtether_signal_map/build/lib/resqtether_signal_map
+[2.669s] copying resqtether_signal_map/signal_map.py -> /home/dsc/resqtether_ws/build/resqtether_signal_map/build/lib/resqtether_signal_map
+[2.671s] running install
+[2.677s] running install_lib
+[2.707s] copying /home/dsc/resqtether_ws/build/resqtether_signal_map/build/lib/resqtether_signal_map/rssi_model.py -> /home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map
+[2.707s] copying /home/dsc/resqtether_ws/build/resqtether_signal_map/build/lib/resqtether_signal_map/test_rssi_model.py -> /home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map
+[2.708s] copying /home/dsc/resqtether_ws/build/resqtether_signal_map/build/lib/resqtether_signal_map/signal_map.py -> /home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map
+[2.708s] byte-compiling /home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map/rssi_model.py to rssi_model.cpython-312.pyc
+[2.709s] byte-compiling /home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map/test_rssi_model.py to test_rssi_model.cpython-312.pyc
+[2.710s] byte-compiling /home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map/signal_map.py to signal_map.cpython-312.pyc
+[2.711s] running install_data
+[2.712s] running install_egg_info
+[2.741s] removing '/home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map-0.0.0-py3.12.egg-info' (and everything under it)
+[2.741s] Copying ../../build/resqtether_signal_map/resqtether_signal_map.egg-info to /home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map-0.0.0-py3.12.egg-info
+[2.742s] running install_scripts
+[2.799s] writing list of installed files to '/home/dsc/resqtether_ws/build/resqtether_signal_map/install.log'
+[2.858s] Invoked command in '/home/dsc/resqtether_ws/src/resqtether_signal_map' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/resqtether_signal_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_signal_map build --build-base /home/dsc/resqtether_ws/build/resqtether_signal_map/build install --record /home/dsc/resqtether_ws/build/resqtether_signal_map/install.log --install-scripts $base/lib/resqtether_signal_map --single-version-externally-managed install_data

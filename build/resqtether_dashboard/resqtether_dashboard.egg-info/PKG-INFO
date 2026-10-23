@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: resqtether_dashboard
+Version: 0.0.1
+Summary: Unified Central Mission Command Web Dashboard for ResQTether
+Maintainer: dsc
+Maintainer-email: chaathura.155@gmail.com
+License: Apache-2.0
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

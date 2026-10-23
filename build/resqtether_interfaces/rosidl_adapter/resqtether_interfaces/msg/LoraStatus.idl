@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from resqtether_interfaces/msg/LoraStatus.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module resqtether_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "LoraStatus.msg")
+    struct LoraStatus {
+      builtin_interfaces::msg::Time stamp;
+
+      string sender_id;
+
+      float rssi;
+
+      float snr;
+    };
+  };
+};

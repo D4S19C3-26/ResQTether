@@ -1,0 +1,20 @@
+[0.806s] Invoking command in '/home/dsc/resqtether_ws/src/slam_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/slam_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/slam_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_bringup build --build-base /home/dsc/resqtether_ws/build/slam_bringup/build install --record /home/dsc/resqtether_ws/build/slam_bringup/install.log --install-scripts $base/lib/slam_bringup --single-version-externally-managed install_data
+[1.098s] running egg_info
+[1.120s] writing ../../build/slam_bringup/slam_bringup.egg-info/PKG-INFO
+[1.120s] writing dependency_links to ../../build/slam_bringup/slam_bringup.egg-info/dependency_links.txt
+[1.120s] writing requirements to ../../build/slam_bringup/slam_bringup.egg-info/requires.txt
+[1.121s] writing top-level names to ../../build/slam_bringup/slam_bringup.egg-info/top_level.txt
+[1.167s] reading manifest file '../../build/slam_bringup/slam_bringup.egg-info/SOURCES.txt'
+[1.168s] writing manifest file '../../build/slam_bringup/slam_bringup.egg-info/SOURCES.txt'
+[1.168s] running build
+[1.168s] running build_py
+[1.169s] running install
+[1.174s] running install_lib
+[1.197s] running install_data
+[1.197s] copying launch/slam.launch.py -> /home/dsc/resqtether_ws/install/slam_bringup/share/slam_bringup/launch
+[1.198s] running install_egg_info
+[1.220s] removing '/home/dsc/resqtether_ws/install/slam_bringup/lib/python3.12/site-packages/slam_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[1.221s] Copying ../../build/slam_bringup/slam_bringup.egg-info to /home/dsc/resqtether_ws/install/slam_bringup/lib/python3.12/site-packages/slam_bringup-0.0.0-py3.12.egg-info
+[1.222s] running install_scripts
+[1.268s] writing list of installed files to '/home/dsc/resqtether_ws/build/slam_bringup/install.log'
+[1.316s] Invoked command in '/home/dsc/resqtether_ws/src/slam_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/slam_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/slam_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_bringup build --build-base /home/dsc/resqtether_ws/build/slam_bringup/build install --record /home/dsc/resqtether_ws/build/slam_bringup/install.log --install-scripts $base/lib/slam_bringup --single-version-externally-managed install_data

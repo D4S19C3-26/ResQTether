@@ -1,0 +1,32 @@
+[0.790s] Invoking command in '/home/dsc/resqtether_ws/src/rover_bringup': AMENT_PREFIX_PATH=/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/resqtether_interfaces:/home/dsc/resqtether_ws/install/lidar_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dsc/resqtether_ws/build/rover_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/slam_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lidar_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_bringup build --build-base /home/dsc/resqtether_ws/build/rover_bringup/build install --record /home/dsc/resqtether_ws/build/rover_bringup/install.log --install-scripts $base/lib/rover_bringup --single-version-externally-managed install_data
+[1.104s] running egg_info
+[1.127s] creating ../../build/rover_bringup/rover_bringup.egg-info
+[1.127s] writing ../../build/rover_bringup/rover_bringup.egg-info/PKG-INFO
+[1.127s] writing dependency_links to ../../build/rover_bringup/rover_bringup.egg-info/dependency_links.txt
+[1.128s] writing requirements to ../../build/rover_bringup/rover_bringup.egg-info/requires.txt
+[1.128s] writing top-level names to ../../build/rover_bringup/rover_bringup.egg-info/top_level.txt
+[1.128s] writing manifest file '../../build/rover_bringup/rover_bringup.egg-info/SOURCES.txt'
+[1.175s] reading manifest file '../../build/rover_bringup/rover_bringup.egg-info/SOURCES.txt'
+[1.176s] writing manifest file '../../build/rover_bringup/rover_bringup.egg-info/SOURCES.txt'
+[1.176s] running build
+[1.177s] running build_py
+[1.177s] creating /home/dsc/resqtether_ws/build/rover_bringup/build/lib/rover_bringup
+[1.177s] copying rover_bringup/__init__.py -> /home/dsc/resqtether_ws/build/rover_bringup/build/lib/rover_bringup
+[1.177s] running install
+[1.182s] running install_lib
+[1.204s] creating /home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages/rover_bringup
+[1.204s] copying /home/dsc/resqtether_ws/build/rover_bringup/build/lib/rover_bringup/__init__.py -> /home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages/rover_bringup
+[1.204s] byte-compiling /home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages/rover_bringup/__init__.py to __init__.cpython-312.pyc
+[1.205s] running install_data
+[1.205s] creating /home/dsc/resqtether_ws/install/rover_bringup/share/ament_index/resource_index/packages
+[1.205s] copying resource/rover_bringup -> /home/dsc/resqtether_ws/install/rover_bringup/share/ament_index/resource_index/packages
+[1.206s] copying package.xml -> /home/dsc/resqtether_ws/install/rover_bringup/share/rover_bringup
+[1.206s] creating /home/dsc/resqtether_ws/install/rover_bringup/share/rover_bringup/launch
+[1.206s] copying launch/full_system.launch.py -> /home/dsc/resqtether_ws/install/rover_bringup/share/rover_bringup/launch
+[1.206s] creating /home/dsc/resqtether_ws/install/rover_bringup/share/rover_bringup/rviz
+[1.206s] copying rviz/full_system.rviz -> /home/dsc/resqtether_ws/install/rover_bringup/share/rover_bringup/rviz
+[1.207s] running install_egg_info
+[1.228s] Copying ../../build/rover_bringup/rover_bringup.egg-info to /home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages/rover_bringup-0.0.0-py3.12.egg-info
+[1.229s] running install_scripts
+[1.274s] writing list of installed files to '/home/dsc/resqtether_ws/build/rover_bringup/install.log'
+[1.312s] Invoked command in '/home/dsc/resqtether_ws/src/rover_bringup' returned '0': AMENT_PREFIX_PATH=/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/resqtether_interfaces:/home/dsc/resqtether_ws/install/lidar_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dsc/resqtether_ws/build/rover_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/rover_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lora_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/slam_bringup/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/lidar_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_bringup build --build-base /home/dsc/resqtether_ws/build/rover_bringup/build install --record /home/dsc/resqtether_ws/build/rover_bringup/install.log --install-scripts $base/lib/rover_bringup --single-version-externally-managed install_data

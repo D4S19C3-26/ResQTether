@@ -1,0 +1,11 @@
+{
+  "package_name": "resqtether_interfaces",
+  "output_dir": "/home/dsc/resqtether_ws/build/resqtether_interfaces/rosidl_generator_type_description/resqtether_interfaces",
+  "idl_tuples": [
+    "/home/dsc/resqtether_ws/build/resqtether_interfaces/rosidl_adapter/resqtether_interfaces:msg/LoraStatus.idl",
+    "/home/dsc/resqtether_ws/build/resqtether_interfaces/rosidl_adapter/resqtether_interfaces:msg/VictimAlert.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

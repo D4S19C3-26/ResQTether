@@ -1,0 +1,31 @@
+[2.126s] Invoking command in '/home/dsc/aems_ws/resqtether_ws/src/resqtether_decision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/aems_ws/resqtether_ws/build/resqtether_decision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/aems_ws/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_decision build --build-base /home/dsc/aems_ws/resqtether_ws/build/resqtether_decision/build install --record /home/dsc/aems_ws/resqtether_ws/build/resqtether_decision/install.log --install-scripts $base/lib/resqtether_decision --single-version-externally-managed install_data
+[2.467s] running egg_info
+[2.493s] creating ../../build/resqtether_decision/resqtether_decision.egg-info
+[2.494s] writing ../../build/resqtether_decision/resqtether_decision.egg-info/PKG-INFO
+[2.494s] writing dependency_links to ../../build/resqtether_decision/resqtether_decision.egg-info/dependency_links.txt
+[2.495s] writing requirements to ../../build/resqtether_decision/resqtether_decision.egg-info/requires.txt
+[2.495s] writing top-level names to ../../build/resqtether_decision/resqtether_decision.egg-info/top_level.txt
+[2.495s] writing manifest file '../../build/resqtether_decision/resqtether_decision.egg-info/SOURCES.txt'
+[2.548s] reading manifest file '../../build/resqtether_decision/resqtether_decision.egg-info/SOURCES.txt'
+[2.549s] writing manifest file '../../build/resqtether_decision/resqtether_decision.egg-info/SOURCES.txt'
+[2.549s] running build
+[2.549s] running build_py
+[2.549s] creating /home/dsc/aems_ws/resqtether_ws/build/resqtether_decision/build/lib/resqtether_decision
+[2.550s] copying resqtether_decision/__init__.py -> /home/dsc/aems_ws/resqtether_ws/build/resqtether_decision/build/lib/resqtether_decision
+[2.551s] copying resqtether_decision/decision_node.py -> /home/dsc/aems_ws/resqtether_ws/build/resqtether_decision/build/lib/resqtether_decision
+[2.552s] running install
+[2.556s] running install_lib
+[2.580s] creating /home/dsc/aems_ws/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages/resqtether_decision
+[2.581s] copying /home/dsc/aems_ws/resqtether_ws/build/resqtether_decision/build/lib/resqtether_decision/__init__.py -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages/resqtether_decision
+[2.581s] copying /home/dsc/aems_ws/resqtether_ws/build/resqtether_decision/build/lib/resqtether_decision/decision_node.py -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages/resqtether_decision
+[2.581s] byte-compiling /home/dsc/aems_ws/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages/resqtether_decision/__init__.py to __init__.cpython-312.pyc
+[2.581s] byte-compiling /home/dsc/aems_ws/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages/resqtether_decision/decision_node.py to decision_node.cpython-312.pyc
+[2.582s] running install_data
+[2.582s] creating /home/dsc/aems_ws/resqtether_ws/install/resqtether_decision/share/ament_index/resource_index/packages
+[2.582s] copying resource/resqtether_decision -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_decision/share/ament_index/resource_index/packages
+[2.582s] copying package.xml -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_decision/share/resqtether_decision
+[2.583s] running install_egg_info
+[2.613s] Copying ../../build/resqtether_decision/resqtether_decision.egg-info to /home/dsc/aems_ws/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages/resqtether_decision-0.0.0-py3.12.egg-info
+[2.614s] running install_scripts
+[2.661s] writing list of installed files to '/home/dsc/aems_ws/resqtether_ws/build/resqtether_decision/install.log'
+[2.710s] Invoked command in '/home/dsc/aems_ws/resqtether_ws/src/resqtether_decision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/aems_ws/resqtether_ws/build/resqtether_decision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/aems_ws/resqtether_ws/install/resqtether_decision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_decision build --build-base /home/dsc/aems_ws/resqtether_ws/build/resqtether_decision/build install --record /home/dsc/aems_ws/resqtether_ws/build/resqtether_decision/install.log --install-scripts $base/lib/resqtether_decision --single-version-externally-managed install_data

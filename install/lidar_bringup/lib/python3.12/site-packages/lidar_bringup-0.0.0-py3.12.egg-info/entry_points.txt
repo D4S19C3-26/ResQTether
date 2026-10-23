@@ -1,0 +1,3 @@
+[console_scripts]
+fake_lidar_node = lidar_bringup.fake_lidar_node:main
+lidar_health_check = lidar_bringup.lidar_health_check:main

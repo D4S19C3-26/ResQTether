@@ -1,0 +1,4 @@
+source;share/resqtether_human_detect/hook/pythonpath.dsv
+source;share/resqtether_human_detect/hook/pythonpath.sh
+source;share/resqtether_human_detect/hook/ament_prefix_path.dsv
+source;share/resqtether_human_detect/hook/ament_prefix_path.sh

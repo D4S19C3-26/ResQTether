@@ -1,0 +1,9 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/dsc/resqtether_ws/build/resqtether_sim
+failed to create symbolic link '/home/dsc/resqtether_ws/build/resqtether_sim/ament_cmake_python/resqtether_sim/resqtether_sim' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_resqtether_sim.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_resqtether_sim] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/ament_cmake_python_symlink_resqtether_sim.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

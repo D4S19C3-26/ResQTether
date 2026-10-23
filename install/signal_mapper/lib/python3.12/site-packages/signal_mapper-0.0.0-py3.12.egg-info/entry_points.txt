@@ -1,0 +1,4 @@
+[console_scripts]
+fuse_node = signal_mapper.fuse_node:main
+plot_heatmap = signal_mapper.plot_heatmap:main
+walk_controller = signal_mapper.walk_controller:main

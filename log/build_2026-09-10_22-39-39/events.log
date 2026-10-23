@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.000239] (-) JobUnselected: {'identifier': 'resqtether_bridge'}
+[0.000281] (-) JobUnselected: {'identifier': 'resqtether_bringup'}
+[0.000309] (-) JobUnselected: {'identifier': 'resqtether_decision'}
+[0.000335] (-) JobUnselected: {'identifier': 'resqtether_signal_map'}
+[0.000363] (resqtether_sim) JobQueued: {'identifier': 'resqtether_sim', 'dependencies': OrderedDict()}
+[0.001118] (resqtether_sim) JobStarted: {'identifier': 'resqtether_sim'}
+[0.013525] (resqtether_sim) JobProgress: {'identifier': 'resqtether_sim', 'progress': 'cmake'}
+[0.014295] (resqtether_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/dsc/resqtether_ws/src/resqtether_sim', '-DCMAKE_INSTALL_PREFIX=/home/dsc/resqtether_ws/install/resqtether_sim'], 'cwd': '/home/dsc/resqtether_ws/build/resqtether_sim', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CHROME_DEVTOOLS_MCP_JS': '/home/dsc/Downloads/Antigravity/Antigravity-x64/resources/app.asar.unpacked/node_modules/chrome-devtools-mcp/build/src/bin/chrome-devtools-mcp.js', 'AI_AGENT': 'antigravity', 'USER': 'dsc', 'ANTIGRAVITY_SOURCE_METADATA': '{"tool":{"conversationId":"2225ba08-dc5a-4058-95dc-2730dec081d6","stepIndex":47,"toolCall":{"id":"call_2453859","name":"run_command","argumentsJson":"{\\"BypassSandbox\\":true,\\"CommandLine\\":\\"colcon build --packages-select resqtether_sim\\",\\"Cwd\\":\\"/home/dsc/resqtether_ws\\",\\"IsDaemon\\":false,\\"RunPersistent\\":false,\\"WaitMsBeforeAsync\\":5000,\\"toolAction\\":\\"Building resqtether_sim\\",\\"toolSummary\\":\\"Build package\\"}","thinkingSignature":"EsMCCsACARFNMg9YP9Yc2v8/gVpNcuUIGQF4Ys6dEHxsat5PzbtG91E1VxOm1+0cvs3D2jp7ee0zIgzplGt0iJIVEwekSFUrwnp7u81ZPql2OhSt5Jm5HvfuxUM3hAqHNSRkCHnqML4QMCFCiz6GL+zc2n60NUkXgHdIfy23ijO/peVALgJ2YBj9z8nnRILoKftlnv2S4AHysQVLhxTnxiOH1EskgG3DtpCyhsRmkIAB/cpzrLefx5bj5RdVjh9Gw6clhsYbNmub2BI2ZjKzGqiOqkXXEXAeVumbwMJ+0uqRQOfSbZijm8srzfsxf5T0NEq7D03VXaEIgql2ePZ/jWsBTfor47vLAaHOlMXsxcTdLoINepypujAOAg5vP6wEiDt12rqO32GyH7m6RP50Gnsi/kRPwgTg1pHy538t3QSi/DJ2yJ8="}}}', 'XDG_SESSION_TYPE': 'wayland', 'ANTIGRAVITY_AGENTAPI_EXE': '/home/dsc/Downloads/Antigravity/Antigravity-x64/resources/bin/language_server', 'JETSKI_APP_DATA_DIR': 'antigravity', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/dsc', 'CHROME_DESKTOP': 'antigravity.desktop', 'DISABLE_AUTO_UPDATE': 'true', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/dsc/.local/share/applications/antigravity.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'MANAGERPID': '2348', 'SYSTEMD_EXEC_PID': '2633', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6390', 'AGY_BROWSER_ACTIVE_PORT_FILE': '/home/dsc/.config/Antigravity/DevToolsActivePort', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ZSH_TMUX_AUTOSTARTED': 'true', 'LOGNAME': 'dsc', 'AGY_BROWSER_WS_URL': 'ws://127.0.0.1:38655/devtools/browser/7ecada63-ce64-4d02-bfd4-34eb04c1aa21', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '10:24732', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dsc', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ANTIGRAVITY_LS_VERSION': 'hub-2.8.1', 'PATH': '/home/dsc/.gemini/antigravity/bin:/home/dsc/.config/Antigravity/bin:/home/dsc/.local/bin:/home/dsc/.local/bin:/home/dsc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dsc:@/tmp/.ICE-unix/2594,unix/dsc:/tmp/.ICE-unix/2594', 'INVOCATION_ID': '71df96f3d9164bfa86993d4e8faba027', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'ANTIGRAVITY_CONVERSATION_ID': '2225ba08-dc5a-4058-95dc-2730dec081d6', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1BIIV3', 'LS_COLORS': '', 'SBX_CHROME_API_RQ': '1', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ANTIGRAVITY_PROJECT_ID': 'd94ab9de-f89f-4884-b7ce-dcf04c9334c1', 'SHELL': '/bin/bash', 'ANTIGRAVITY_LS_ADDRESS': 'localhost:45457', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'ANTIGRAVITY_TRAJECTORY_ID': '47a29ff6-1188-42e6-a463-e2b9c4709ca1', 'PWD': '/home/dsc/resqtether_ws/build/resqtether_sim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'ZSH_TMUX_AUTOSTART': 'false', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'JETSKI_SAFECLIS_SOURCE': '/home/dsc/.gemini/antigravity/bin/secplugins/src', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'ANTIGRAVITY_CSRF_TOKEN': 'd263d838-2a3a-4f8d-acb3-29706589b294'}), 'shell': False}
+[0.099699] (-) TimerEvent: {}
+[0.196377] (resqtether_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199855] (-) TimerEvent: {}
+[0.300338] (-) TimerEvent: {}
+[0.348096] (resqtether_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.378487] (resqtether_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400538] (-) TimerEvent: {}
+[0.501039] (-) TimerEvent: {}
+[0.508381] (resqtether_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.517904] (resqtether_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.519693] (resqtether_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.520371] (resqtether_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.535303] (resqtether_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601289] (-) TimerEvent: {}
+[0.674920] (resqtether_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.684318] (resqtether_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.684794] (resqtether_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.685068] (resqtether_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.700958] (resqtether_sim) StderrLine: {'line': b'CMake Error at CMakeLists.txt:8 (find_package):\n'}
+[0.701427] (-) TimerEvent: {}
+[0.701594] (resqtether_sim) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.701863] (resqtether_sim) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.702026] (resqtether_sim) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.702168] (resqtether_sim) StderrLine: {'line': b'\n'}
+[0.702270] (resqtether_sim) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.702346] (resqtether_sim) StderrLine: {'line': b'  any of the following names:\n'}
+[0.702419] (resqtether_sim) StderrLine: {'line': b'\n'}
+[0.702504] (resqtether_sim) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.702587] (resqtether_sim) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.702707] (resqtether_sim) StderrLine: {'line': b'\n'}
+[0.702797] (resqtether_sim) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.702871] (resqtether_sim) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.702969] (resqtether_sim) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.703068] (resqtether_sim) StderrLine: {'line': b'  has been installed.\n'}
+[0.703172] (resqtether_sim) StderrLine: {'line': b'\n'}
+[0.703299] (resqtether_sim) StderrLine: {'line': b'\n'}
+[0.703399] (resqtether_sim) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.707215] (resqtether_sim) CommandEnded: {'returncode': 1}
+[0.742658] (resqtether_sim) JobEnded: {'identifier': 'resqtether_sim', 'rc': 1}
+[0.753591] (-) EventReactorShutdown: {}

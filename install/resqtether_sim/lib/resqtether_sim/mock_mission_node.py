@@ -1,0 +1,1 @@
+/home/dsc/resqtether_ws/src/resqtether_sim/resqtether_sim/mock_mission_node.py

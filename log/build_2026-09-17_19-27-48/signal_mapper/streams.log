@@ -1,0 +1,26 @@
+[0.774s] Invoking command in '/home/dsc/resqtether_ws/src/signal_mapper': AMENT_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dsc/resqtether_ws/build/signal_mapper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/signal_mapper build --build-base /home/dsc/resqtether_ws/build/signal_mapper/build install --record /home/dsc/resqtether_ws/build/signal_mapper/install.log --install-scripts $base/lib/signal_mapper --single-version-externally-managed install_data
+[1.076s] running egg_info
+[1.098s] writing ../../build/signal_mapper/signal_mapper.egg-info/PKG-INFO
+[1.098s] writing dependency_links to ../../build/signal_mapper/signal_mapper.egg-info/dependency_links.txt
+[1.099s] writing entry points to ../../build/signal_mapper/signal_mapper.egg-info/entry_points.txt
+[1.099s] writing requirements to ../../build/signal_mapper/signal_mapper.egg-info/requires.txt
+[1.099s] writing top-level names to ../../build/signal_mapper/signal_mapper.egg-info/top_level.txt
+[1.146s] reading manifest file '../../build/signal_mapper/signal_mapper.egg-info/SOURCES.txt'
+[1.147s] writing manifest file '../../build/signal_mapper/signal_mapper.egg-info/SOURCES.txt'
+[1.147s] running build
+[1.147s] running build_py
+[1.147s] copying signal_mapper/walk_controller.py -> /home/dsc/resqtether_ws/build/signal_mapper/build/lib/signal_mapper
+[1.148s] running install
+[1.152s] running install_lib
+[1.175s] copying /home/dsc/resqtether_ws/build/signal_mapper/build/lib/signal_mapper/walk_controller.py -> /home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages/signal_mapper
+[1.175s] byte-compiling /home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages/signal_mapper/walk_controller.py to walk_controller.cpython-312.pyc
+[1.176s] running install_data
+[1.176s] running install_egg_info
+[1.198s] removing '/home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages/signal_mapper-0.0.0-py3.12.egg-info' (and everything under it)
+[1.199s] Copying ../../build/signal_mapper/signal_mapper.egg-info to /home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages/signal_mapper-0.0.0-py3.12.egg-info
+[1.199s] running install_scripts
+[1.245s] Installing fuse_node script to /home/dsc/resqtether_ws/install/signal_mapper/lib/signal_mapper
+[1.246s] Installing plot_heatmap script to /home/dsc/resqtether_ws/install/signal_mapper/lib/signal_mapper
+[1.246s] Installing walk_controller script to /home/dsc/resqtether_ws/install/signal_mapper/lib/signal_mapper
+[1.246s] writing list of installed files to '/home/dsc/resqtether_ws/build/signal_mapper/install.log'
+[1.281s] Invoked command in '/home/dsc/resqtether_ws/src/signal_mapper' returned '0': AMENT_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/dsc/resqtether_ws/install/resqtether_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dsc/resqtether_ws/build/signal_mapper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/signal_mapper/lib/python3.12/site-packages:/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/signal_mapper build --build-base /home/dsc/resqtether_ws/build/signal_mapper/build install --record /home/dsc/resqtether_ws/build/signal_mapper/install.log --install-scripts $base/lib/signal_mapper --single-version-externally-managed install_data

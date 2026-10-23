@@ -1,0 +1,30 @@
+[2.122s] Invoking command in '/home/dsc/aems_ws/resqtether_ws/src/resqtether_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/aems_ws/resqtether_ws/build/resqtether_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/aems_ws/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_bringup build --build-base /home/dsc/aems_ws/resqtether_ws/build/resqtether_bringup/build install --record /home/dsc/aems_ws/resqtether_ws/build/resqtether_bringup/install.log --install-scripts $base/lib/resqtether_bringup --single-version-externally-managed install_data
+[2.452s] running egg_info
+[2.476s] creating ../../build/resqtether_bringup/resqtether_bringup.egg-info
+[2.476s] writing ../../build/resqtether_bringup/resqtether_bringup.egg-info/PKG-INFO
+[2.477s] writing dependency_links to ../../build/resqtether_bringup/resqtether_bringup.egg-info/dependency_links.txt
+[2.477s] writing requirements to ../../build/resqtether_bringup/resqtether_bringup.egg-info/requires.txt
+[2.477s] writing top-level names to ../../build/resqtether_bringup/resqtether_bringup.egg-info/top_level.txt
+[2.478s] writing manifest file '../../build/resqtether_bringup/resqtether_bringup.egg-info/SOURCES.txt'
+[2.527s] reading manifest file '../../build/resqtether_bringup/resqtether_bringup.egg-info/SOURCES.txt'
+[2.528s] writing manifest file '../../build/resqtether_bringup/resqtether_bringup.egg-info/SOURCES.txt'
+[2.528s] running build
+[2.529s] running build_py
+[2.529s] creating /home/dsc/aems_ws/resqtether_ws/build/resqtether_bringup/build/lib/resqtether_bringup
+[2.529s] copying resqtether_bringup/__init__.py -> /home/dsc/aems_ws/resqtether_ws/build/resqtether_bringup/build/lib/resqtether_bringup
+[2.529s] running install
+[2.535s] running install_lib
+[2.558s] creating /home/dsc/aems_ws/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages/resqtether_bringup
+[2.560s] copying /home/dsc/aems_ws/resqtether_ws/build/resqtether_bringup/build/lib/resqtether_bringup/__init__.py -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages/resqtether_bringup
+[2.560s] byte-compiling /home/dsc/aems_ws/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages/resqtether_bringup/__init__.py to __init__.cpython-312.pyc
+[2.560s] running install_data
+[2.560s] creating /home/dsc/aems_ws/resqtether_ws/install/resqtether_bringup/share/ament_index/resource_index/packages
+[2.561s] copying resource/resqtether_bringup -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_bringup/share/ament_index/resource_index/packages
+[2.561s] copying package.xml -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_bringup/share/resqtether_bringup
+[2.561s] creating /home/dsc/aems_ws/resqtether_ws/install/resqtether_bringup/share/resqtether_bringup/launch
+[2.562s] copying launch/resqtether.launch.py -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_bringup/share/resqtether_bringup/launch
+[2.562s] running install_egg_info
+[2.585s] Copying ../../build/resqtether_bringup/resqtether_bringup.egg-info to /home/dsc/aems_ws/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages/resqtether_bringup-0.0.0-py3.12.egg-info
+[2.586s] running install_scripts
+[2.634s] writing list of installed files to '/home/dsc/aems_ws/resqtether_ws/build/resqtether_bringup/install.log'
+[2.684s] Invoked command in '/home/dsc/aems_ws/resqtether_ws/src/resqtether_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/aems_ws/resqtether_ws/build/resqtether_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/aems_ws/resqtether_ws/install/resqtether_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_bringup build --build-base /home/dsc/aems_ws/resqtether_ws/build/resqtether_bringup/build install --record /home/dsc/aems_ws/resqtether_ws/build/resqtether_bringup/install.log --install-scripts $base/lib/resqtether_bringup --single-version-externally-managed install_data

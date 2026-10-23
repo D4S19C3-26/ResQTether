@@ -1,0 +1,26 @@
+[0.857s] Invoking command in '/home/dsc/resqtether_ws/src/resqtether_human_detect': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/resqtether_human_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_human_detect build --build-base /home/dsc/resqtether_ws/build/resqtether_human_detect/build install --record /home/dsc/resqtether_ws/build/resqtether_human_detect/install.log --install-scripts $base/lib/resqtether_human_detect --single-version-externally-managed install_data
+[1.054s] /home/dsc/.local/lib/python3.12/site-packages/setuptools/_distutils/dist.py:318: UserWarning: Unknown distribution option: 'tests_require'
+[1.054s]   warnings.warn(msg)
+[1.214s] running egg_info
+[1.238s] writing ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/PKG-INFO
+[1.238s] writing dependency_links to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/dependency_links.txt
+[1.239s] writing entry points to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/entry_points.txt
+[1.239s] writing requirements to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/requires.txt
+[1.239s] writing top-level names to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/top_level.txt
+[1.288s] reading manifest file '../../build/resqtether_human_detect/resqtether_human_detect.egg-info/SOURCES.txt'
+[1.289s] writing manifest file '../../build/resqtether_human_detect/resqtether_human_detect.egg-info/SOURCES.txt'
+[1.290s] running build
+[1.290s] running build_py
+[1.290s] copying resqtether_human_detect/human_detect_node.py -> /home/dsc/resqtether_ws/build/resqtether_human_detect/build/lib/resqtether_human_detect
+[1.291s] running install
+[1.295s] running install_lib
+[1.319s] copying /home/dsc/resqtether_ws/build/resqtether_human_detect/build/lib/resqtether_human_detect/human_detect_node.py -> /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect
+[1.320s] byte-compiling /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect/human_detect_node.py to human_detect_node.cpython-312.pyc
+[1.323s] running install_data
+[1.323s] running install_egg_info
+[1.347s] removing '/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect-0.0.0-py3.12.egg-info' (and everything under it)
+[1.347s] Copying ../../build/resqtether_human_detect/resqtether_human_detect.egg-info to /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect-0.0.0-py3.12.egg-info
+[1.348s] running install_scripts
+[1.398s] Installing human_detect_node script to /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/resqtether_human_detect
+[1.398s] writing list of installed files to '/home/dsc/resqtether_ws/build/resqtether_human_detect/install.log'
+[1.444s] Invoked command in '/home/dsc/resqtether_ws/src/resqtether_human_detect' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/resqtether_human_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_human_detect build --build-base /home/dsc/resqtether_ws/build/resqtether_human_detect/build install --record /home/dsc/resqtether_ws/build/resqtether_human_detect/install.log --install-scripts $base/lib/resqtether_human_detect --single-version-externally-managed install_data

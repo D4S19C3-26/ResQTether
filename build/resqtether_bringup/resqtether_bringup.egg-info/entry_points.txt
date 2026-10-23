@@ -1,0 +1,3 @@
+[console_scripts]
+fake_lidar_node = resqtether_bringup.fake_lidar_node:main
+lidar_health_check = resqtether_bringup.lidar_health_check:main

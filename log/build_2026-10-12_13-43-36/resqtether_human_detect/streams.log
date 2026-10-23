@@ -1,0 +1,24 @@
+[0.817s] Invoking command in '/home/dsc/resqtether_ws/src/resqtether_human_detect': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/resqtether_human_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_human_detect build --build-base /home/dsc/resqtether_ws/build/resqtether_human_detect/build install --record /home/dsc/resqtether_ws/build/resqtether_human_detect/install.log --install-scripts $base/lib/resqtether_human_detect --single-version-externally-managed install_data
+[1.000s] /home/dsc/.local/lib/python3.12/site-packages/setuptools/_distutils/dist.py:318: UserWarning: Unknown distribution option: 'tests_require'
+[1.000s]   warnings.warn(msg)
+[1.139s] running egg_info
+[1.162s] writing ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/PKG-INFO
+[1.163s] writing dependency_links to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/dependency_links.txt
+[1.163s] writing entry points to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/entry_points.txt
+[1.163s] writing requirements to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/requires.txt
+[1.164s] writing top-level names to ../../build/resqtether_human_detect/resqtether_human_detect.egg-info/top_level.txt
+[1.211s] reading manifest file '../../build/resqtether_human_detect/resqtether_human_detect.egg-info/SOURCES.txt'
+[1.212s] writing manifest file '../../build/resqtether_human_detect/resqtether_human_detect.egg-info/SOURCES.txt'
+[1.213s] running build
+[1.213s] running build_py
+[1.213s] running install
+[1.218s] running install_lib
+[1.242s] running install_data
+[1.243s] copying launch/human_detect.launch.py -> /home/dsc/resqtether_ws/install/resqtether_human_detect/share/resqtether_human_detect/launch
+[1.243s] running install_egg_info
+[1.266s] removing '/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect-0.0.0-py3.12.egg-info' (and everything under it)
+[1.267s] Copying ../../build/resqtether_human_detect/resqtether_human_detect.egg-info to /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages/resqtether_human_detect-0.0.0-py3.12.egg-info
+[1.268s] running install_scripts
+[1.316s] Installing human_detect_node script to /home/dsc/resqtether_ws/install/resqtether_human_detect/lib/resqtether_human_detect
+[1.317s] writing list of installed files to '/home/dsc/resqtether_ws/build/resqtether_human_detect/install.log'
+[1.356s] Invoked command in '/home/dsc/resqtether_ws/src/resqtether_human_detect' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/resqtether_ws/build/resqtether_human_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/resqtether_ws/install/resqtether_human_detect/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_human_detect build --build-base /home/dsc/resqtether_ws/build/resqtether_human_detect/build install --record /home/dsc/resqtether_ws/build/resqtether_human_detect/install.log --install-scripts $base/lib/resqtether_human_detect --single-version-externally-managed install_data

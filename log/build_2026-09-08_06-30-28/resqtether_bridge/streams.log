@@ -1,0 +1,31 @@
+[2.099s] Invoking command in '/home/dsc/aems_ws/resqtether_ws/src/resqtether_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_bridge build --build-base /home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/build install --record /home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/install.log --install-scripts $base/lib/resqtether_bridge --single-version-externally-managed install_data
+[2.425s] running egg_info
+[2.450s] creating ../../build/resqtether_bridge/resqtether_bridge.egg-info
+[2.451s] writing ../../build/resqtether_bridge/resqtether_bridge.egg-info/PKG-INFO
+[2.451s] writing dependency_links to ../../build/resqtether_bridge/resqtether_bridge.egg-info/dependency_links.txt
+[2.452s] writing requirements to ../../build/resqtether_bridge/resqtether_bridge.egg-info/requires.txt
+[2.452s] writing top-level names to ../../build/resqtether_bridge/resqtether_bridge.egg-info/top_level.txt
+[2.452s] writing manifest file '../../build/resqtether_bridge/resqtether_bridge.egg-info/SOURCES.txt'
+[2.501s] reading manifest file '../../build/resqtether_bridge/resqtether_bridge.egg-info/SOURCES.txt'
+[2.502s] writing manifest file '../../build/resqtether_bridge/resqtether_bridge.egg-info/SOURCES.txt'
+[2.502s] running build
+[2.503s] running build_py
+[2.503s] creating /home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/build/lib/resqtether_bridge
+[2.503s] copying resqtether_bridge/__init__.py -> /home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/build/lib/resqtether_bridge
+[2.503s] copying resqtether_bridge/bridge_node.py -> /home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/build/lib/resqtether_bridge
+[2.503s] running install
+[2.509s] running install_lib
+[2.534s] creating /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages/resqtether_bridge
+[2.534s] copying /home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/build/lib/resqtether_bridge/__init__.py -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages/resqtether_bridge
+[2.534s] copying /home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/build/lib/resqtether_bridge/bridge_node.py -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages/resqtether_bridge
+[2.535s] byte-compiling /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages/resqtether_bridge/__init__.py to __init__.cpython-312.pyc
+[2.535s] byte-compiling /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages/resqtether_bridge/bridge_node.py to bridge_node.cpython-312.pyc
+[2.535s] running install_data
+[2.536s] creating /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/share/ament_index/resource_index/packages
+[2.536s] copying resource/resqtether_bridge -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/share/ament_index/resource_index/packages
+[2.536s] copying package.xml -> /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/share/resqtether_bridge
+[2.536s] running install_egg_info
+[2.561s] Copying ../../build/resqtether_bridge/resqtether_bridge.egg-info to /home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages/resqtether_bridge-0.0.0-py3.12.egg-info
+[2.562s] running install_scripts
+[2.611s] writing list of installed files to '/home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/install.log'
+[2.683s] Invoked command in '/home/dsc/aems_ws/resqtether_ws/src/resqtether_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsc/aems_ws/resqtether_ws/install/resqtether_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/resqtether_bridge build --build-base /home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/build install --record /home/dsc/aems_ws/resqtether_ws/build/resqtether_bridge/install.log --install-scripts $base/lib/resqtether_bridge --single-version-externally-managed install_data

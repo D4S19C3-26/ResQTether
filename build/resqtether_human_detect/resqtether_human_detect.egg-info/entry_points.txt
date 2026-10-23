@@ -1,0 +1,3 @@
+[console_scripts]
+human_detect_node = resqtether_human_detect.human_detect_node:main
+victim_locator_node = resqtether_human_detect.victim_locator_node:main

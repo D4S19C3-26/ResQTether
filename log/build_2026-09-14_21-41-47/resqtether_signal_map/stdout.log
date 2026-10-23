@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/resqtether_signal_map/resqtether_signal_map.egg-info/PKG-INFO
+writing dependency_links to ../../build/resqtether_signal_map/resqtether_signal_map.egg-info/dependency_links.txt
+writing requirements to ../../build/resqtether_signal_map/resqtether_signal_map.egg-info/requires.txt
+writing top-level names to ../../build/resqtether_signal_map/resqtether_signal_map.egg-info/top_level.txt
+reading manifest file '../../build/resqtether_signal_map/resqtether_signal_map.egg-info/SOURCES.txt'
+writing manifest file '../../build/resqtether_signal_map/resqtether_signal_map.egg-info/SOURCES.txt'
+running build
+running build_py
+copying resqtether_signal_map/rssi_model.py -> /home/dsc/resqtether_ws/build/resqtether_signal_map/build/lib/resqtether_signal_map
+copying resqtether_signal_map/test_rssi_model.py -> /home/dsc/resqtether_ws/build/resqtether_signal_map/build/lib/resqtether_signal_map
+copying resqtether_signal_map/signal_map.py -> /home/dsc/resqtether_ws/build/resqtether_signal_map/build/lib/resqtether_signal_map
+running install
+running install_lib
+copying /home/dsc/resqtether_ws/build/resqtether_signal_map/build/lib/resqtether_signal_map/rssi_model.py -> /home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map
+copying /home/dsc/resqtether_ws/build/resqtether_signal_map/build/lib/resqtether_signal_map/test_rssi_model.py -> /home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map
+copying /home/dsc/resqtether_ws/build/resqtether_signal_map/build/lib/resqtether_signal_map/signal_map.py -> /home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map
+byte-compiling /home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map/rssi_model.py to rssi_model.cpython-312.pyc
+byte-compiling /home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map/test_rssi_model.py to test_rssi_model.cpython-312.pyc
+byte-compiling /home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map/signal_map.py to signal_map.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/resqtether_signal_map/resqtether_signal_map.egg-info to /home/dsc/resqtether_ws/install/resqtether_signal_map/lib/python3.12/site-packages/resqtether_signal_map-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/dsc/resqtether_ws/build/resqtether_signal_map/install.log'

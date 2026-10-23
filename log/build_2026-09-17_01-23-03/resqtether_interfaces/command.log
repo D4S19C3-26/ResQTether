@@ -1,0 +1,3 @@
+Invoking command in '/home/dsc/resqtether_ws/build/resqtether_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dsc/resqtether_ws/build/resqtether_interfaces -- -j12 -l12
+Invoked command in '/home/dsc/resqtether_ws/build/resqtether_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dsc/resqtether_ws/build/resqtether_interfaces -- -j12 -l12
+Invoking command in '/home/dsc/resqtether_ws/build/resqtether_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dsc/resqtether_ws/build/resqtether_interfaces

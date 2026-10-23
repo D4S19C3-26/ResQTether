@@ -1,0 +1,2 @@
+[console_scripts]
+relay_wander_node = resqtether_decision.relay_wander_node:main

@@ -1,0 +1,93 @@
+[0.050s] Invoking command in '/home/dsc/resqtether_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dsc/resqtether_ws/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/dsc/resqtether_ws/install/slam_toolbox
+[1.335s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.336s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.336s] -- Found message_filters: 4.11.17 (/opt/ros/jazzy/share/message_filters/cmake)
+[1.336s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.337s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.337s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.337s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.338s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.338s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.338s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.338s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.338s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.339s] -- Found tf2: 0.36.21 (/opt/ros/jazzy/share/tf2/cmake)
+[1.339s] -- Found tf2_ros: 0.36.21 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.530s] -- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.571s] -- Found pluginlib: 5.4.5 (/opt/ros/jazzy/share/pluginlib/cmake)
+[1.584s] -- Found tf2_geometry_msgs: 0.36.21 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.617s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.617s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.617s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.624s] -- Found tf2_sensor_msgs: 0.36.21 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)
+[1.634s] -- Found std_srvs: 5.3.8 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.669s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.714s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.725s] -- Found nav2_map_server: 1.3.12 (/opt/ros/jazzy/share/nav2_map_server/cmake)
+[1.735s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[2.134s] -- Found interactive_markers: 2.5.5 (/opt/ros/jazzy/share/interactive_markers/cmake)
+[2.391s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system serialization filesystem thread 
+[2.446s] CMake Error at CMake/FindTBB.cmake:400 (file):
+[2.446s]   file STRINGS file "/usr/include/tbb/tbb_stddef.h" cannot be read.
+[2.446s] Call Stack (most recent call first):
+[2.446s]   lib/karto_sdk/CMakeLists.txt:15 (find_package)
+[2.447s] 
+[2.447s] 
+[2.834s] -- Found Threads: TRUE  
+[3.887s] -- Found AMD headers in: /usr/include/suitesparse
+[3.891s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[3.893s] -- Found CAMD headers in: /usr/include/suitesparse
+[3.896s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[3.898s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[3.901s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[3.903s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[3.906s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[3.908s] -- Found COLAMD headers in: /usr/include/suitesparse
+[3.911s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[3.912s] -- Found SPQR headers in: /usr/include/suitesparse
+[3.914s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[3.915s] -- Found Config headers in: /usr/include/suitesparse
+[3.917s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[3.926s] -- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[3.926s] -- Looking for shm_open in rt
+[4.042s] -- Looking for shm_open in rt - found
+[4.042s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[4.052s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[4.053s] -- Found SuiteSparse: /usr/include/suitesparse (found suitable version "7.6.1", minimum required is "7.6.1") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config 
+[4.055s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+[4.074s] -- Found required Ceres dependency: glog
+[4.074s] -- Found required Ceres dependency: gflags
+[4.075s] -- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+[4.949s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[6.257s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.760s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.937s] -- Found PythonExtra: /usr/bin/python3  
+[7.552s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.739s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.788s] CMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[7.788s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[7.788s]   rosidl_target_interfaces().  i.e:
+[7.788s] 
+[7.788s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[7.788s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[7.789s] 
+[7.789s] Call Stack (most recent call first):
+[7.789s]   CMakeLists.txt:99 (rosidl_target_interfaces)
+[7.789s] 
+[7.789s] 
+[7.835s] CMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[7.835s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[7.835s]   rosidl_target_interfaces().  i.e:
+[7.835s] 
+[7.835s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[7.835s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[7.835s] 
+[7.835s] Call Stack (most recent call first):
+[7.835s]   CMakeLists.txt:108 (rosidl_target_interfaces)
+[7.835s] 
+[7.835s] 
+[7.854s] -- Configuring incomplete, errors occurred!
+[7.888s] Invoked command in '/home/dsc/resqtether_ws/build/slam_toolbox' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dsc/resqtether_ws/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/dsc/resqtether_ws/install/slam_toolbox

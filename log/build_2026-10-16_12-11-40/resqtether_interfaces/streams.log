@@ -1,0 +1,237 @@
+[0.037s] Invoking command in '/home/dsc/resqtether_ws/build/resqtether_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dsc/resqtether_ws/src/resqtether_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dsc/resqtether_ws/install/resqtether_interfaces
+[0.366s] -- The C compiler identification is GNU 13.3.0
+[0.366s] -- The CXX compiler identification is GNU 13.3.0
+[0.367s] -- Detecting C compiler ABI info
+[0.367s] -- Detecting C compiler ABI info - done
+[0.369s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.370s] -- Detecting C compile features
+[0.371s] -- Detecting C compile features - done
+[0.389s] -- Detecting CXX compiler ABI info
+[0.550s] -- Detecting CXX compiler ABI info - done
+[0.559s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.560s] -- Detecting CXX compile features
+[0.560s] -- Detecting CXX compile features - done
+[0.567s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.794s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.900s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.984s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.999s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.099s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.193s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.201s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.977s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.261s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.273s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.446s] -- Found PythonExtra: /usr/bin/python3  
+[4.005s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.095s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.107s] -- Configuring done (4.1s)
+[4.144s] -- Generating done (0.0s)
+[4.156s] -- Build files have been written to: /home/dsc/resqtether_ws/build/resqtether_interfaces
+[4.166s] Invoked command in '/home/dsc/resqtether_ws/build/resqtether_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dsc/resqtether_ws/src/resqtether_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dsc/resqtether_ws/install/resqtether_interfaces
+[4.168s] Invoking command in '/home/dsc/resqtether_ws/build/resqtether_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dsc/resqtether_ws/build/resqtether_interfaces -- -j12 -l12
+[4.237s] [  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.237s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.249s] [  4%] Built target ament_cmake_python_symlink_resqtether_interfaces
+[4.481s] [  4%] Built target resqtether_interfaces__rosidl_generator_type_description
+[4.493s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.494s] [  6%] Built target resqtether_interfaces__rs
+[4.508s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.522s] running egg_info
+[4.547s] creating resqtether_interfaces.egg-info
+[4.547s] writing resqtether_interfaces.egg-info/PKG-INFO
+[4.547s] writing dependency_links to resqtether_interfaces.egg-info/dependency_links.txt
+[4.547s] writing top-level names to resqtether_interfaces.egg-info/top_level.txt
+[4.548s] writing manifest file 'resqtether_interfaces.egg-info/SOURCES.txt'
+[4.619s] reading manifest file 'resqtether_interfaces.egg-info/SOURCES.txt'
+[4.620s] writing manifest file 'resqtether_interfaces.egg-info/SOURCES.txt'
+[4.670s] [  8%] Built target ament_cmake_python_build_resqtether_interfaces_egg
+[4.817s] [  8%] Built target resqtether_interfaces__cpp
+[4.861s] [ 17%] [32mBuilding C object CMakeFiles/resqtether_interfaces__rosidl_generator_c.dir/rosidl_generator_c/resqtether_interfaces/msg/detail/victim_alert__description.c.o[0m
+[4.861s] [ 17%] [32mBuilding C object CMakeFiles/resqtether_interfaces__rosidl_generator_c.dir/rosidl_generator_c/resqtether_interfaces/msg/detail/lora_status__functions.c.o[0m
+[4.861s] [ 17%] [32mBuilding C object CMakeFiles/resqtether_interfaces__rosidl_generator_c.dir/rosidl_generator_c/resqtether_interfaces/msg/detail/lora_status__type_support.c.o[0m
+[4.861s] [ 17%] [32mBuilding C object CMakeFiles/resqtether_interfaces__rosidl_generator_c.dir/rosidl_generator_c/resqtether_interfaces/msg/detail/lora_status__description.c.o[0m
+[4.862s] [ 22%] [32mBuilding C object CMakeFiles/resqtether_interfaces__rosidl_generator_c.dir/rosidl_generator_c/resqtether_interfaces/msg/detail/victim_alert__functions.c.o[0m
+[4.862s] [ 22%] [32mBuilding C object CMakeFiles/resqtether_interfaces__rosidl_generator_c.dir/rosidl_generator_c/resqtether_interfaces/msg/detail/victim_alert__type_support.c.o[0m
+[4.943s] [ 24%] [32m[1mLinking C shared library libresqtether_interfaces__rosidl_generator_c.so[0m
+[4.993s] [ 24%] Built target resqtether_interfaces__rosidl_generator_c
+[5.008s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.008s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.008s] [ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.008s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.008s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.012s] [ 37%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.380s] [ 40%] [32mBuilding CXX object CMakeFiles/resqtether_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/resqtether_interfaces/msg/victim_alert__type_support.cpp.o[0m
+[5.384s] [ 42%] [32mBuilding CXX object CMakeFiles/resqtether_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/resqtether_interfaces/msg/lora_status__type_support.cpp.o[0m
+[5.389s] [ 44%] [32mBuilding CXX object CMakeFiles/resqtether_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/resqtether_interfaces/msg/detail/lora_status__type_support.cpp.o[0m
+[5.389s] [ 46%] [32mBuilding CXX object CMakeFiles/resqtether_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/resqtether_interfaces/msg/detail/victim_alert__type_support.cpp.o[0m
+[5.402s] [ 48%] [32mBuilding CXX object CMakeFiles/resqtether_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/resqtether_interfaces/msg/lora_status__type_support.cpp.o[0m
+[5.404s] [ 53%] [32mBuilding CXX object CMakeFiles/resqtether_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/resqtether_interfaces/msg/victim_alert__type_support.cpp.o[0m
+[5.405s] [ 53%] [32mBuilding C object CMakeFiles/resqtether_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/resqtether_interfaces/msg/detail/lora_status__type_support.c.o[0m
+[5.407s] [ 55%] [32mBuilding C object CMakeFiles/resqtether_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/resqtether_interfaces/msg/detail/victim_alert__type_support.c.o[0m
+[5.438s] [ 57%] [32mBuilding CXX object CMakeFiles/resqtether_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/resqtether_interfaces/msg/detail/dds_fastrtps/victim_alert__type_support.cpp.o[0m
+[5.438s] [ 60%] [32mBuilding CXX object CMakeFiles/resqtether_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/resqtether_interfaces/msg/detail/dds_fastrtps/lora_status__type_support.cpp.o[0m
+[5.482s] [ 62%] [32m[1mLinking CXX shared library libresqtether_interfaces__rosidl_typesupport_c.so[0m
+[5.495s] [ 64%] [32m[1mLinking C shared library libresqtether_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.513s] [ 68%] [32mBuilding CXX object CMakeFiles/resqtether_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/resqtether_interfaces/msg/detail/victim_alert__type_support_c.cpp.o[0m
+[5.514s] [ 68%] [32mBuilding CXX object CMakeFiles/resqtether_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/resqtether_interfaces/msg/detail/lora_status__type_support_c.cpp.o[0m
+[5.573s] [ 68%] Built target resqtether_interfaces__rosidl_typesupport_introspection_c
+[5.587s] [ 68%] Built target resqtether_interfaces__rosidl_typesupport_c
+[5.940s] [ 71%] [32m[1mLinking CXX shared library libresqtether_interfaces__rosidl_typesupport_cpp.so[0m
+[5.975s] [ 73%] [32m[1mLinking CXX shared library libresqtether_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.011s] [ 73%] Built target resqtether_interfaces__rosidl_typesupport_cpp
+[6.114s] [ 73%] Built target resqtether_interfaces__rosidl_typesupport_introspection_cpp
+[6.133s] [ 75%] [32m[1mLinking CXX shared library libresqtether_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.195s] [ 77%] [32m[1mLinking CXX shared library libresqtether_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.251s] [ 77%] Built target resqtether_interfaces__rosidl_typesupport_fastrtps_c
+[6.309s] [ 77%] Built target resqtether_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.339s] [ 77%] Built target resqtether_interfaces
+[6.369s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.773s] [ 80%] Built target resqtether_interfaces__py
+[6.805s] [ 82%] [32mBuilding C object CMakeFiles/resqtether_interfaces__rosidl_generator_py.dir/rosidl_generator_py/resqtether_interfaces/msg/_lora_status_s.c.o[0m
+[6.806s] [ 84%] [32mBuilding C object CMakeFiles/resqtether_interfaces__rosidl_generator_py.dir/rosidl_generator_py/resqtether_interfaces/msg/_victim_alert_s.c.o[0m
+[6.976s] [ 86%] [32m[1mLinking C shared library libresqtether_interfaces__rosidl_generator_py.so[0m
+[7.037s] [ 86%] Built target resqtether_interfaces__rosidl_generator_py
+[7.065s] [ 91%] [32mBuilding C object CMakeFiles/resqtether_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/resqtether_interfaces/_resqtether_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.065s] [ 91%] [32mBuilding C object CMakeFiles/resqtether_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/resqtether_interfaces/_resqtether_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.065s] [ 93%] [32mBuilding C object CMakeFiles/resqtether_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/resqtether_interfaces/_resqtether_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.171s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/resqtether_interfaces/resqtether_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.171s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/resqtether_interfaces/resqtether_interfaces_s__rosidl_typesupport_c.so[0m
+[7.176s] [100%] [32m[1mLinking C shared module rosidl_generator_py/resqtether_interfaces/resqtether_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[7.211s] [100%] Built target resqtether_interfaces_s__rosidl_typesupport_c
+[7.211s] [100%] Built target resqtether_interfaces_s__rosidl_typesupport_fastrtps_c
+[7.218s] [100%] Built target resqtether_interfaces_s__rosidl_typesupport_introspection_c
+[7.234s] Invoked command in '/home/dsc/resqtether_ws/build/resqtether_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dsc/resqtether_ws/build/resqtether_interfaces -- -j12 -l12
+[7.235s] Invoking command in '/home/dsc/resqtether_ws/build/resqtether_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dsc/resqtether_ws/build/resqtether_interfaces
+[7.245s] -- Install configuration: ""
+[7.246s] -- Execute custom install script
+[7.246s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/ament_index/resource_index/rosidl_interfaces/resqtether_interfaces
+[7.259s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/msg/LoraStatus.json
+[7.271s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/msg/VictimAlert.json
+[7.285s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/lora_status__functions.h
+[7.298s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/lora_status__struct.h
+[7.310s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/lora_status__type_support.h
+[7.323s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/victim_alert__functions.h
+[7.336s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/victim_alert__struct.h
+[7.349s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/victim_alert__type_support.h
+[7.361s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/lora_status.h
+[7.374s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.388s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/victim_alert.h
+[7.402s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/environment/library_path.sh
+[7.414s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/environment/library_path.dsv
+[7.428s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/lora_status__rosidl_typesupport_fastrtps_c.h
+[7.440s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/victim_alert__rosidl_typesupport_fastrtps_c.h
+[7.453s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.467s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/lora_status__rosidl_typesupport_introspection_c.h
+[7.480s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/victim_alert__rosidl_typesupport_introspection_c.h
+[7.491s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.506s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/lora_status__builder.hpp
+[7.519s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/lora_status__struct.hpp
+[7.531s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/lora_status__traits.hpp
+[7.544s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/lora_status__type_support.hpp
+[7.555s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/victim_alert__builder.hpp
+[7.566s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/victim_alert__struct.hpp
+[7.578s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/victim_alert__traits.hpp
+[7.590s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/victim_alert__type_support.hpp
+[7.602s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/lora_status.hpp
+[7.613s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.626s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/victim_alert.hpp
+[7.641s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/lora_status__rosidl_typesupport_fastrtps_cpp.hpp
+[7.654s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/victim_alert__rosidl_typesupport_fastrtps_cpp.hpp
+[7.665s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.678s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/lora_status__rosidl_typesupport_introspection_cpp.hpp
+[7.690s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/include/resqtether_interfaces/resqtether_interfaces/msg/detail/victim_alert__rosidl_typesupport_introspection_cpp.hpp
+[7.704s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/environment/pythonpath.sh
+[7.716s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/environment/pythonpath.dsv
+[7.729s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[7.741s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[7.756s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[7.769s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[7.785s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/__init__.py
+[7.799s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/_resqtether_interfaces_s.ep.rosidl_typesupport_c.c
+[7.811s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/_resqtether_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.825s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/_resqtether_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.838s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/msg/__init__.py
+[7.850s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/msg/_lora_status.py
+[7.862s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/msg/_lora_status_s.c
+[7.875s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/msg/_victim_alert.py
+[7.887s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/msg/_victim_alert_s.c
+[7.909s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/resqtether_interfaces_s__rosidl_typesupport_c.so
+[7.923s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/resqtether_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.942s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/resqtether_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.958s] -- Up-to-date symlink: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/resqtether_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.958s] -- Up-to-date symlink: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/resqtether_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.963s] -- Up-to-date symlink: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/resqtether_interfaces_s__rosidl_typesupport_c.so
+[7.964s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/rust/Cargo.toml
+[7.977s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/rust/build.rs
+[7.991s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/rust/src/lib.rs
+[8.003s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/rust/src/msg.rs
+[8.015s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/rust/src/msg/rmw.rs
+[8.029s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/msg/LoraStatus.idl
+[8.041s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/msg/VictimAlert.idl
+[8.054s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/msg/LoraStatus.msg
+[8.067s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/msg/VictimAlert.msg
+[8.082s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/ament_index/resource_index/package_run_dependencies/resqtether_interfaces
+[8.094s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/ament_index/resource_index/parent_prefix_path/resqtether_interfaces
+[8.109s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/environment/ament_prefix_path.sh
+[8.123s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/environment/ament_prefix_path.dsv
+[8.136s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/environment/path.sh
+[8.148s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/environment/path.dsv
+[8.162s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/local_setup.bash
+[8.175s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/local_setup.sh
+[8.188s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/local_setup.zsh
+[8.202s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/local_setup.dsv
+[8.215s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/package.dsv
+[8.229s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/ament_index/resource_index/packages/resqtether_interfaces
+[8.242s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.255s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.267s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.279s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.292s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.306s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.318s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.331s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[8.344s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/resqtether_interfacesConfig.cmake
+[8.356s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/resqtether_interfacesConfig-version.cmake
+[8.370s] -- Symlinking: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/package.xml
+[8.381s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_generator_c.so
+[8.382s] -- Set non-toolchain portion of runtime path of "/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_generator_c.so" to ""
+[8.382s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.383s] -- Set non-toolchain portion of runtime path of "/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.383s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_typesupport_introspection_c.so
+[8.383s] -- Set non-toolchain portion of runtime path of "/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.384s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_typesupport_c.so
+[8.384s] -- Set non-toolchain portion of runtime path of "/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_typesupport_c.so" to ""
+[8.384s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.385s] -- Set non-toolchain portion of runtime path of "/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.385s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.385s] -- Set non-toolchain portion of runtime path of "/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.386s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_typesupport_cpp.so
+[8.386s] -- Set non-toolchain portion of runtime path of "/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.436s] Listing '/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces'...
+[8.436s] Compiling '/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/__init__.py'...
+[8.436s] Listing '/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/msg'...
+[8.437s] Compiling '/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/msg/__init__.py'...
+[8.437s] Compiling '/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/msg/_lora_status.py'...
+[8.437s] Compiling '/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/python3.12/site-packages/resqtether_interfaces/msg/_victim_alert.py'...
+[8.443s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_generator_py.so
+[8.444s] -- Set non-toolchain portion of runtime path of "/home/dsc/resqtether_ws/install/resqtether_interfaces/lib/libresqtether_interfaces__rosidl_generator_py.so" to ""
+[8.445s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/export_resqtether_interfaces__rosidl_generator_cExport.cmake
+[8.445s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/export_resqtether_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.446s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/export_resqtether_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.446s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/export_resqtether_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.446s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/resqtether_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.446s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/resqtether_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.447s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/resqtether_interfaces__rosidl_typesupport_cExport.cmake
+[8.447s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/resqtether_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.448s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/export_resqtether_interfaces__rosidl_generator_cppExport.cmake
+[8.448s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/export_resqtether_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.448s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/export_resqtether_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.449s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/resqtether_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.449s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/resqtether_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.449s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/resqtether_interfaces__rosidl_typesupport_cppExport.cmake
+[8.450s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/resqtether_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.450s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/export_resqtether_interfaces__rosidl_generator_pyExport.cmake
+[8.450s] -- Installing: /home/dsc/resqtether_ws/install/resqtether_interfaces/share/resqtether_interfaces/cmake/export_resqtether_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.458s] Invoked command in '/home/dsc/resqtether_ws/build/resqtether_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dsc/resqtether_ws/install/rover_bringup:/home/dsc/resqtether_ws/install/slam_bringup:/home/dsc/resqtether_ws/install/signal_mapper:/home/dsc/resqtether_ws/install/resqtether_signal_map:/home/dsc/resqtether_ws/install/lora_bringup:/home/dsc/resqtether_ws/install/resqtether_human_detect:/home/dsc/resqtether_ws/install/resqtether_decision:/home/dsc/resqtether_ws/install/resqtether_bringup:/home/dsc/resqtether_ws/install/resqtether_bridge:/home/dsc/resqtether_ws/install/lidar_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dsc/resqtether_ws/build/resqtether_interfaces

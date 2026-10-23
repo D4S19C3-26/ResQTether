@@ -1,0 +1,4 @@
+[console_scripts]
+plot_rssi = resqtether_signal_map.plot_rssi:main
+real_rssi_node = resqtether_signal_map.real_rssi_node:main
+signal_map_node = resqtether_signal_map.signal_map_node:main
